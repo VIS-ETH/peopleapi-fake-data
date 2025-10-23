@@ -1,0 +1,31 @@
+{
+  "name": "vseth-1116-vis-kom-desko",
+  "description": "Group for the VIS Desko",
+
+  "parent": "vseth-1116-vis",
+
+  "vsethOrgId": "1116",
+  "vsethObjectType": "GROUP_OBJECT_TYPE_FIOE",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethDisplayName": "VIS Desko",
+  "vsethTitleDe": "VIS Desko",
+  "vsethTitleEn": "VIS Desko",
+  "vsethEmail": "",
+  "vsethEthOffice": "CAB E 31",
+  "vsethWebsite": "https://www.vis.ethz.ch",
+  "vsethTelephone": "+41446326653",
+  "vsethEthOrgId": "04821",
+  "vsethPostalAddress": {
+    "streetAddress": "Universitätsstrasse 6",
+    "locality": "Zürich",
+    "postalCode": "8092",
+    "country": "CH"
+  },
+
+  "clientRoles": {
+    "eventmanager": [
+      "desko"
+    ]
+  }
+}

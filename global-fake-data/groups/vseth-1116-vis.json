@@ -1,0 +1,29 @@
+{
+  "name": "vseth-1116-vis",
+  "description": "Main group of the VIS student assocation.",
+
+  "vsethOrgId": "1116",
+  "vsethObjectType": "GROUP_OBJECT_TYPE_OU",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethDisplayName": "VIS",
+  "vsethTitleDe": "Verein der Informatik Studierenden an der ETH Zürich",
+  "vsethTitleEn": "Study association of computer science students at ETH Zurich",
+  "vsethEmail": "vis@vis.ethz.ch",
+  "vsethEthOffice": "CAB E 31",
+  "vsethWebsite": "https://www.vis.ethz.ch",
+  "vsethTelephone": "+41446326653",
+  "vsethEthOrgId": "04821",
+  "vsethPostalAddress": {
+    "streetAddress": "Universitätsstrasse 6",
+    "locality": "Zürich",
+    "postalCode": "8092",
+    "country": "CH"
+  },
+
+  "clientRoles": {
+    "eventmanager": [
+      "vis-active"
+    ]
+  }
+}

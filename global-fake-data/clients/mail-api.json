@@ -1,0 +1,10 @@
+{
+  "name": "Mail API",
+  "enabled": true,
+  
+  "clientId": "mail-api",
+
+  "roles": [
+    "send-mail"
+  ]
+}

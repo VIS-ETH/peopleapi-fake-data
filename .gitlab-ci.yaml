@@ -1,0 +1,4 @@
+# - Clone https://gitlab.ethz.ch/vseth/sip-com-apps/dev-tools/dev-setup/
+# - Supply our fake data (clients, users, groups) during build time in correct locations
+# - docker build the different containers
+

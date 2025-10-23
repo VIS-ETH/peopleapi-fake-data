@@ -1,0 +1,31 @@
+{
+  "name": "vseth-1116-vis-vs",
+  "description": "Board of the student association VIS",
+
+  "parent": "vseth-1116-vis",
+
+  "vsethOrgId": "1116",
+  "vsethObjectType": "GROUP_OBJECT_TYPE_OIOE",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethDisplayName": "VIS Vorstand",
+  "vsethTitleDe": "VIS Vorstand",
+  "vsethTitleEn": "VIS Board",
+  "vsethEmail": "vorstand@vis.ethz.ch",
+  "vsethEthOffice": "CAB E 31",
+  "vsethWebsite": "https://www.vis.ethz.ch",
+  "vsethTelephone": "+41446326653",
+  "vsethEthOrgId": "04821",
+  "vsethPostalAddress": {
+    "streetAddress": "Universitätsstrasse 6",
+    "locality": "Zürich",
+    "postalCode": "8092",
+    "country": "CH"
+  },
+
+  "clientRoles": {
+    "eventmanager": [
+      "admin"
+    ]
+  }
+}

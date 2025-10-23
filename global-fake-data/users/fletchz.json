@@ -1,0 +1,59 @@
+{
+  "username": "fletchz",
+  "password": "123456abc",
+  "firstName": "Zoé",
+  "lastName": "Fletcher",
+  "mail": "fletchz@student.ethz.ch",
+  "telephoneNumber": "",
+  "vsethPersonId": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "vsethStudentNumber": "12345678",
+  "vsethAlternativeEmail": "",
+  "vsethStudySemester": 3,
+  "vsethBirthdate": "2003-07-12",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethEthStudyInfo": {
+    "ethFachid": "252000",
+    "department": "D-INFK",
+    "departmentDisplayLabelDe": "Computer Science",
+    "departmentDisplayLabelEn": "Informatik",
+    "studyProgramDisplayLabelDe": "Computer Science BSc",
+    "studyProgramDisplayLabelEn": "Informatik BSc",
+    "studyFachrichtungDisplayLabelDe": "Computer Science BSc",
+    "studyFachrichtungDisplayLabelEn": "Informatik BSc",
+    "exitDate": "2029-08-10"
+  },
+  "vsethMembershipInfo": {
+    "membership": "VSETH_MEMBERSHIP_MEMBER",
+    "membershipType": "VSETH_MEMBERSHIP_TYPE_BACHELOR_OR_MASTER",
+    "fvOrgId": "1116",
+    "fvOrgKey": "vis"
+  },
+  "vsethPostalAddress": {
+    "streetAddress": "",
+    "locality": "",
+    "postalCode": "",
+    "country": ""
+  },
+  "vsethBankAccount": {
+    "bankName": "",
+    "bic": "",
+    "iban": "",
+    "accountHolderName": "",
+    "bankingAddress": {
+      "streetAddress": "",
+      "locality": "",
+      "postalCode": "",
+      "country": ""
+    }
+  },
+  "vsethSwissEduPersonUniqueId": "0069420@ethz.ch",
+  "vsethSwissEduPersonAffiliation": "member;student",
+  "vsethAdvantUid": "12DF8E56C2AB67",
+  "vsethKabaGroupHeader": "123456",
+  "groups": [
+    "vseth-1601-regular-vis",
+    "vseth-1116-vis-vs",
+    "vseth-1116-vis"
+  ]
+}

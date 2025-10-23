@@ -1,0 +1,82 @@
+{
+  "name": "EventManager",
+  "enabled": true,
+
+  "publicClient": false,
+  "serviceAccountsEnabled": true,
+  "clientAuthenticatorType": "client-secret",
+  "clientId": "eventmanager",
+  "secret": "eventmanager",
+
+  "protocol": "openid-connect",
+  "protocolMappers": [
+    {
+      "name": "People API Audience",
+      "protocol": "openid-connect",
+      "protocolMapper": "oidc-audience-mapper",
+      "config": {
+        "includedClientAudience": "peopleapi",
+        "idTokenClaim": "false",
+        "accessTokenClaim": "true",
+        "userinfoTokenClaim": "false"
+      }
+    },
+    {
+      "name": "Mail API Audience",
+      "protocol": "openid-connect",
+      "protocolMapper": "oidc-audience-mapper",
+      "config": {
+        "includedClientAudience": "mail-api",
+        "idTokenClaim": "false",
+        "accessTokenClaim": "true",
+        "userinfoTokenClaim": "false"
+      }
+    },
+    {
+      "name": "Event Manager Audience",
+      "protocol": "openid-connect",
+      "protocolMapper": "oidc-audience-mapper",
+      "config": {
+        "includedClientAudience": "eventmanager",
+        "idTokenClaim": "false",
+        "accessTokenClaim": "true",
+        "userinfoTokenClaim": "false"
+      }
+    },
+    {
+      "name": "People API ID",
+      "protocol": "openid-connect",
+      "protocolMapper": "oidc-usermodel-attribute-mapper",
+      "consentRequired": false,
+      "config": {
+        "introspectionTokenClaim": "true",
+        "userinfoTokenClaim": "true",
+        "userAttribute": "LDAP_ID",
+        "idTokenClaim": "true",
+        "lightweightClaim": "false",
+        "accessTokenClaim": "true",
+        "claimName": "sub",
+        "jsonTypeLabel": "String"
+      }
+    }
+  ],
+
+  "roles": [
+    "admin",
+    "vis-active",
+    "desko"
+  ],
+
+  "clientRoles": {
+    "peopleapi": [
+      "sa-vis-peopleapi-eventmanager"
+    ],
+    "mail-api": [
+      "send-mail"
+    ]
+  },
+
+  "redirectUris": [
+    "*"
+  ]
+}
