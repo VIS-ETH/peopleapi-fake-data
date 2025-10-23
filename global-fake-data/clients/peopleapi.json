@@ -1,0 +1,9 @@
+{
+  "name": "People API",
+  "enabled": true,
+  "clientId": "peopleapi",
+  "roles": [
+    "admin",
+    "sa-vis-peopleapi-eventmanager"
+  ]
+}
