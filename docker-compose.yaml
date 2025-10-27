@@ -1,0 +1,8 @@
+services:
+  peopleapi:
+    image: eu.gcr.io/vseth-public/dev-setup
+    privileged: true
+    volumes:
+      - ./global-fake-data:/data
+    ports:
+      - 8080:8080
