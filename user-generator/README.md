@@ -14,4 +14,4 @@ Options:
   --help          Show this message and exit.
   ```
 
- 
+(all are optional, n defaults to 1, o defaults to json, seed defaults to no seed)
