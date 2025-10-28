@@ -1,0 +1,284 @@
+orgid,identifier,fachid,Fachrichtung,category
+1101,aiv,122000,Bauingenieurwissenschaften (Mobilität),e
+1101,aiv,104000,Bauingenieurwissenschaften BSc,a
+1101,aiv,126000,Bauingenieurwissenschaften MSc,a
+1101,aiv,114102,Doktorat Bauingenieurwissenschaften,b
+1101,aiv,112000,CAS ETH in Reg. Syst.:Beyond Systems Thinking,f
+1101,aiv,121000,MAS ETH in Fire Safety Engineering,f
+1101,aiv,140000,CAS ETH in Regenerative Materials,f
+1101,aiv,134000,CAS ETH in Raumentwicklung und Prozessdesign,f
+1101,aiv,139000,CAS ETH in Seismic Evaluation and Retrofitting,f
+1101,aiv,136000,DAS ETH in Regenerative Materials,f
+1101,aiv,137000,CAS ETH Regen. Mat. - Hygrothermal Specialisation,f
+1101,aiv,138000,CAS ETH Regen. Mat. - Structural Specialisation,f
+1101,aiv,113000,CAS ETH in Reg. Syst.:Systemic Design,f
+1101,aiv,130000,MAS ETH in Regenerative Systems,f
+1102,amiv,238000,Biomedical Engineering MSc,a
+1102,amiv,159000,"Robotics, Systems and Control MSc",a
+1102,amiv,172000,CAS ETH in Robotics,f
+1102,amiv,244000,DAS ETH in Informationstech. und Elektrotechnik,f
+1102,amiv,241000,Doktorat ETH-UZH Informationstechn. & Elektrotech.,b
+1102,amiv,241100,Doktorat Informationstechn. &amp; Elektrotech. UZH-ETH,b
+1102,amiv,239002,Doktorat Informationstechnologie & Elektrotechnik,b
+1102,amiv,242000,CAS ETH in Applied Technology in Energy,f
+1102,amiv,243000,CAS ETH in Applied Technology: R&D and Innovation,f
+1102,amiv,247000,MAS ETH in Applied Technology,f
+1102,amiv,165000,CAS ETH in Applied Manufacturing Technology,f
+1102,amiv,246000,DZ Elektrotechnik und Informationstechnologie,a
+1102,amiv,249000,Elektrotech. und Informationstechnol. (Mobilität),e
+1102,amiv,228000,Elektrotechnik und Informationstechnologie BSc,a
+1102,amiv,237000,Elektrotechnik und Informationstechnologie MSc,a
+1102,amiv,236000,Energy Science and Technology MSc,a
+1102,amiv,161000,Micro- and Nanosystems MSc,a
+1102,amiv,166000,MAS ETH in Mobilität der Zukunft,f
+1102,amiv,167000,CAS ETH Mobil. der Zukunft: Neue Geschäftsmodelle,f
+1102,amiv,168000,CAS ETH Mobilität der Zukunft: Systemaspekte,f
+1102,amiv,169000,CAS ETH Mobil. der Zukunft: Technologie-Potenziale,f
+1102,amiv,164002,Doktorat Maschinenbau und Verfahrenstechnik,b
+1102,amiv,155000,Doktorat Maschinenbau &amp; Verfahrenstechnik ETH-EPFL,b
+1102,amiv,155100,Doktorat Maschinenbau &amp; Verfahrenstechnik EPFL-ETH,b
+1102,amiv,171000,DZ Maschineningenieurwiss. und Verfahrenstechnik,a
+1102,amiv,174000,Maschineningenieurwissenschaften (Mobilität),e
+1102,amiv,152000,Maschineningenieurwissenschaften BSc,a
+1102,amiv,162000,Maschineningenieurwissenschaften MSc,a
+1102,amiv,160000,Nuclear Engineering MSc,a
+1102,amiv,160100,Nuclear Engineering MSc (EPFL),e
+1102,amiv,235000,Quantum Engineering MSc,a
+1102,amiv,163000,Verfahrenstechnik MSc,a
+1102,amiv,173000,MAS ETH in Adv. Fundamentals Mechatronics Engin.,f
+1102,amiv,248000,CAS ETH in Applied Electronics and Digitization,f
+1102,amiv,461100,Neural Systems and Computation MSc,e
+1102,amiv,241010,Doktorat Informationstech & Elektrotech ETH-UGent,b
+1102,amiv,216000,CAS ETH in Automation,f
+1103,apv,541000,CAS ETH in Pharmaceuticals,f
+1103,apv,542000,CAS ETH in Radiopharmazie,f
+1103,apv,540000,DAS ETH Vorbereit. eidg. Prüfung in Pharmazie (A),f
+1103,apc,540100,DAS ETH Vorbereit. eidg. Prüfung in Pharmazie (B),f
+1103,apv,538000,Doktorat ETH-UZH Pharmazeutische Wissenschaften,b
+1103,apv,539302,Doktorat Pharmazeutische Wissenschaften,b
+1103,apv,538100,Doktorat UZH-ETH Pharmazeutische Wissenschaften,b
+1103,apv,512000,Pharmaceutical Sciences MSc,a
+1103,apv,548000,Pharmazeutische Wissenschaften (Mobilität),e
+1103,apv,537000,Pharmazeutische Wissenschaften BSc,a
+1103,apv,510200,Pharmazie (Eidg. Diplom für Apoth.) MSc,a
+1104,architektura,74000,Architektur (Mobilität),e
+1104,architektura,052000,Architektur BSc,a
+1104,architektura,063000,Architektur MSc,a
+1104,architektura,073000,CAS ETH ARC in Digitalisierung,f
+1104,architektura,076000,CAS ETH ARC in Gesamtprojektleitung,f
+1104,architektura,075000,CAS ETH ARC in Unternehmensführung,f
+1104,architektura,064002,Doktorat Architektur,b
+1104,architektura,062000,Integrated Building Systems MSc,a
+1104,architektura,069000,MAS ETH in Architecture and Digital Fabrication,f
+1104,architektura,072000,"MAS ETH in Architecture, Real Estate, Construction",f
+1104,architektura,067000,MAS ETH in Gesamtprojektleitung Bau,f
+1104,architektura,056000,MAS ETH in Geschichte und Theorie der Architektur,f
+1104,architektura,057000,MAS ETH in Housing,f
+1104,architektura,061000,Landschaftsarchitektur MSc,a
+1104,architektura,077000,CAS ETH ARC Immobilienstrategien urban-peri-urban,f
+1104,architektura,078000,MAS ETH EPF in Urban and Territorial Design,f
+1104,architektura,079000,MAS ETH in Denkmalpflege & Konstruktionsgeschichte,f
+1104,architektura,080000,CAS ETH in Preservation,f
+1104,architektura,081000,CAS ETH in Future Heritage,f
+1104,architektura,082000,CAS ETH in Repair and Maintenance,f
+1104,architektura,090000,Doktorat Architektur ETH-EPFL,b
+1104,architektura,090100,Doktorat Architektur EPFL-ETH,b
+1105,bsa,649000,Biotechnologie (Mobilität),e
+1105,bsa,636000,Biotechnologie MSc,a
+1105,bsa,639000,Doktorat Biosysteme,b
+1105,bsa,649100,Uni Basel Biotechnologie,e
+1106,erfa,662000,Applied Geophysics MSc,e
+1106,erfa,661000,Atmospheric and Climate Science MSc,a
+1106,erfa,669000,CAS ETH in Angewandte Erdwissenschaften,f
+1106,erfa,664002,Doktorat Erdwissenschaften,b
+1106,erfa,665000,Doktorat ETH-UZH Erdwissenschaften,b
+1106,erfa,665100,Doktorat UZH-ETH Erdwissenschaften,b
+1106,erfa,674000,Erdwissenschaften (Mobilität),e
+1106,erfa,652100,Erd- und Klimawissenschaften BSc,a
+1106,erfa,660000,Erdwissenschaften MSc,a
+1106,erfa,663000,Space Systems MSc,a
+1106,erfa,672300,Lehrdiplom in Geographie,a
+1106,erfa,672000,Lehrdiplom in Geographie,a
+1106,erfa,674100,UZH MNF Erdsystemwiss. Bachelor (Hauptfach),e
+1106,erfa,674200,UZH MNF Geographie/Erdsystemwissenschaften,e
+1106,erfa,665010,Doktorat Erdwissenschaften ETH-Politecnico Milano,b
+1106,erfa,665020,Doktorat Erdwissenschaften ETH-RWTH Aachen,b
+1106,erfa,665030,Doktorat Erdwissenschaften ETH-TU Delft,b
+1106,erfa,665110,Doktorat Erdwissenschaften Politecnico Milano-ETH,b
+1106,erfa,665120,Doktorat Erdwissenschaften RWTH Aachen-ETH,b
+1106,erfa,665130,Doktorat Erdwissenschaften TU Delft-ETH,b
+1107,gesswho,873000,CAS ETH in Entwicklung und Zusammenarbeit,f
+1107,gesswho,863100,Comparative and International Studies MA,a
+1107,gesswho,870000,DAS ETH in Militärwissenschaften,f
+1107,gesswho,864002,"Doktorat Geistes-, Sozial- & Staatswissenschaften",b
+1107,gesswho,874000,"Geistes-, Sozial- und Staatswissenschaften (Mob.)",e
+1107,gesswho,861000,Fachdidaktik Naturwissenschaften MA,e
+1107,gesswho,862000,Geschichte und Philosophie des Wissens MA,a
+1107,gesswho,865000,MAS ETH in Entwicklung und Zusammenarbeit,f
+1107,gesswho,868000,MAS ETH Mediation in Peace Processes,f
+1107,gesswho,872000,Nachqualifikation Didaktik Zertifikat,g
+1107,gesswho,860000,"Science, Technology and Policy MSc",a
+1107,gesswho,853100,Staatswissenschaften BA,a
+1107,gesswho,851000,"Vorlesungen Geistes-, Sozial- und Staatswiss.",g
+1107,gesswho,875000,CAS ETH Technol. & Public Policy: Policy Process,f
+1107,gesswho,876000,CAS ETH Technol. & Public Policy: Impact Analysis,f
+1107,gesswho,880000,"Doktorat Geistes- / Sozial- & Staatswiss. ETH-EPFL",b
+1107,gesswho,880100,"Doktorat Geistes- / Sozial- & Staatswiss. EPFL_ETH",b
+1107,gesswho,877000,MAS ETH in Technology and Public Policy,f
+1107,gesswho,865100,MAS ETH Global Cooperation &amp; Sustain. Development,f
+1107,gesswho,873100,CAS ETH Global Cooperation &amp; Sustain. Development,f
+1108,geso,148000,CAS ETH Räumliche Informationssysteme,f
+1108,geso,114302,Doktorat Geomatik,b
+1108,geso,114202,Doktorat Umweltingenieurwissenschaften,b
+1108,geso,128100,Geomatik MSc,a
+1108,geso,124100,Geometer Ingenieur Vorbereitung Staatsexamen,g
+1108,geso,118000,MAS ETH in Sustainable Water Resources,f
+1108,geso,135000,MAS ETH in Raumentwicklung,f
+1108,geso,107000,Raumbezogene Ingenieurwissenschaften BSc,a
+1108,geso,124000,Raumbezogene Ingenieurwissenschaften (Mobilität),e
+1108,geso,129000,Raumentwicklung und Infrastruktursysteme MSc,a
+1108,geso,123000,Umweltingenieurwissenschaften (Mobilität),e
+1108,geso,105000,Umweltingenieurwissenschaften BSc,a
+1108,geso,127000,Umweltingenieurwissenschaften MSc,a
+1108,geso,131000,CAS ETH Reg. Syst.: Sustainability to Regeneration,f
+1108,geso,132000,CAS ETH in Raumentwicklung und Planungspraxis,f
+1108,geso,141000,CAS ETH in Naturgefahren - Risikomanagement,f
+1108,geso,148100,CAS ETH in Geoinformationssysteme und -analysen,f
+1108,geso,133000,CAS ETH in Zukunft der Raumentwicklung,f
+1109,heat,394000,CAS ETH in Nutrition for Disease Prevention & Health,f
+1109,heat,390000,Doktorat ETH-UZH Gesundheitswiss. und Technologie,b
+1109,heat,389000,Doktorat Gesundheitswissenschaften und Technologie,b
+1109,heat,390100,Doktorat UZH-ETH Gesundheitswiss. und Technologie,b
+1109,heat,396000,DZ Gesundheitswissenschaften und Technologie,a
+1109,heat,398000,Gesundheitswissenschaften und Technologie (Mob.),e
+1109,heat,376000,Gesundheitswissenschaften und Technologie BSc,a
+1109,heat,380000,Gesundheitswissenschaften und Technologie MSc,a
+1109,heat,377000,Humanmedizin BSc,a
+1109,heat,578000,Lehrdiplom in Sport,a
+1109,heat,766000,MAS ETH in Nutrition and Health,f
+1109,heat,381000,Interdisciplinary Brain Sciences MSc,e
+1109,heat,391000,CAS ETH in Regulatory Thinking,f
+1109,heat,392000,CAS ETH in Nutrition in Medicine,f
+1109,heat,393000,CAS ETH in Modern Concepts in Clinical Research,f
+1109,heat,395000,MAS ETH in Digital Clinical Research,f
+1110,msa,372000,CAS ETH in International Policy and Advocacy,f
+1110,msa,371000,CAS ETH in Public Governance and Administration,f
+1110,msa,355000,Doktorat Management / Technol. &amp; Ökonomie ETH-EPFL,b
+1110,msa,355100,Doktorat Management / Technol. &amp; Ökonomie EPFL-ETH,b
+1110,msa,364002,"Doktorat Management, Technologie und Ökonomie",b
+1110,msa,374000,"Management, Technologie und Ökonomie (Mobilität)",e
+1110,msa,363000,"Management, Technologie und Ökonomie MSc",a
+1110,msa,365000,"MAS ETH in Management, Technology, and Economics",f
+1110,msa,373000,CAS ETH Entrepreneurial Leadership Techn. Ventures,f
+1110,msa,369000,MAS ETH UZH in International Governance and Law,f
+1110,msa,375000,CAS ETH in Digital Health,f
+1111,smw,344000,CAS ETH Advanced Materials and Processes,f
+1111,smw,339002,Doktorat Materialwissenschaft,b
+1111,smw,349000,Materialwissenschaft (Mobilität),e
+1111,smw,327000,Materialwissenschaft BSc,a
+1111,smw,338000,Materialwissenschaft MSc,a
+1112,ufo,739002,Doktorat Umweltnaturwissenschaften,b
+1112,ufo,743000,CAS ETH in Climate Innovation,f
+1112,ufo,746000,DZ Umweltlehre,a
+1112,ufo,749000,Umweltnaturwissenschaften (Mobilität),e
+1112,ufo,727000,Umweltnaturwissenschaften BSc,a
+1112,ufo,736000,Umweltnaturwissenschaften MSc,a
+1113,vcs,549000,Chemie (Mobilität),e
+1113,vcs,529000,Chemie BSc,a
+1113,vcs,505000,Chemie MSc,a
+1113,vcs,506000,Chemie- und Bioingenieurwissenschaften MSc,a
+1113,vcs,530000,Chemieingenieurwissenschaften BSc,a
+1113,vcs,539002,Doktorat Chemie,b
+1113,vcs,539102,Doktorat Chemieingenieurwissenschaften,b
+1113,vcs,539202,Doktorat Interdisziplinäre Naturwissenschaften,b
+1113,vcs,531100,Interdisz. Naturwiss. Bioch-Phys. Fachrichtung BSc,a
+1113,vcs,531000,Interdisz. Naturwiss. Phys.-Chem. Fachrichtung BSc,a
+1113,vcs,507000,Interdisziplinäre Naturwissenschaften MSc,a
+1113,vcs,547000,Lehrdiplom in Chemie,a
+1113,vcs,534000,Biochemie - Chemische Biologie BSc,a
+1113,vcs,513000,Biochemie - Chemische Biologie MSc,a
+1113,vcs,538010,Doktorat Chemie ETH-UGent,b
+1114,vebis,573000,Biologie (Mobilität),e
+1114,vebis,552300,Biologie BSc,a
+1114,vebis,562000,Biologie MSc,a
+1114,vebis,564002,Doktorat Biologie,b
+1114,vebis,565000,Doktorat Biologie ETH-UZH,b
+1114,vebis,565100,Doktorat Biologie UZH-ETH,b
+1114,vebis,579000,Lehrdiplom in Biologie,a
+1114,vebis,573200,Uni Basel Pflanzenwissenschaften,e
+1114,vebis,573100,UZH MNF Biologie,e
+1115,vial,773000,Agrarwissenschaften (Mobilität),e
+1115,vial,753000,Agrarwissenschaften BSc,a
+1115,vial,762000,Agrarwissenschaften MSc,a
+1115,vial,739102,Doktorat Agrarwissenschaften,b
+1115,vial,771000,DZ Agrarwissenschaften,a
+1115,vial,389100,Doktorat Lebensmittelwissenschaften,b
+1115,vial,772000,DZ Lebensmittelwissenschaften,a
+1115,vial,774000,Lebensmittelwissenschaften (Mobilität),e
+1115,vial,754000,Lebensmittelwissenschaften BSc,a
+1115,vial,763000,Lebensmittelwissenschaften MSc,a
+1115,vial,754100,Lebensmittelwissenschaften und Ernährung BSc,a
+1115,vial,763100,Lebensmittelwissenschaften und Ernährung MSc,a
+1116,vis,267000,CAS ETH in Cyber Security,f
+1116,vis,269000,CAS ETH in Informatik,f
+1116,vis,268000,DAS ETH in Cyber Security,f
+1116,vis,266000,DAS ETH in Data Science,f
+1116,vis,261000,Data Science MSc,a
+1116,vis,264002,Doktorat Informatik,b
+1116,vis,255000,Doktorat Informatik ETH-EPFL,b
+1116,vis,255100,Doktorat Informatik EPFL-ETH,b
+1116,vis,271000,DZ Informatik,a
+1116,vis,274000,Informatik (Mobilität),e
+1116,vis,252000,Informatik BSc,a
+1116,vis,263000,Informatik MSc,a
+1116,vis,272000,Lehrdiplom in Informatik,a
+1116,vis,262200,Computational Biology and Bioinformatics MSc,a
+1116,vis,260000,Cyber Security MSc,a
+1116,vis,260100,Cyber Security MSc (EPFL),e
+1116,vis,265000,CAS ETH in Applied Information Technology,f
+1116,vis,273000,CAS Artificial Intelligence &amp; Software Development,f
+1116,vis,275000,CAS ETH in Data and Machine Learning,f
+1116,vis,277000,MAS ETH in AI and Digital Technology,f
+1117,vmp,859000,Fachdidaktik Mathematik MA,e
+1117,vmp,448100,Aktuar SAV,g
+1117,vmp,437100,Angewandte Mathematik MSc,a
+1117,vmp,446000,CAS ETH in Angewandter Statistik,f
+1117,vmp,447000,DAS ETH in Angewandter Statistik,f
+1117,vmp,441000,CAS ETH Machine Learning in Finance and Insurance,f
+1117,vmp,439002,Doktorat Mathematik,b
+1117,vmp,439102,Doktorat Rechnergestützte Wissenschaften,b
+1117,vmp,444000,DZ Mathematik,a
+1117,vmp,442000,Lehrdiplom in Mathematik,a
+1117,vmp,448000,Mathematik (Mobilität),e
+1117,vmp,404000,Mathematik BSc,a
+1117,vmp,437000,Mathematik MSc,a
+1117,vmp,435000,Quantitative Finance MSc,e
+1117,vmp,449000,Rechnergestützte Wissenschaften (Mobilität),e
+1117,vmp,406000,Rechnergestützte Wissenschaften BSc,a
+1117,vmp,438000,Rechnergestützte Wissenschaften MSc,a
+1117,vmp,436000,Statistik MSc,a
+1117,vmp,464002,Doktorat Physik,b
+1117,vmp,471000,DZ Physik,a
+1117,vmp,462000,Hochenergiephysik MSc,a
+1117,vmp,462100,Hochenergiephysik MSc (EP Paris),e
+1117,vmp,472000,Lehrdiplom in Physik,a
+1117,vmp,465200,MAS Medizinische Physik (allg. MP&Biomed. Technik),f
+1117,vmp,465100,MAS Medizinische Physik (Strahlentherapie),f
+1117,vmp,474000,Physik (Mobilität),e
+1117,vmp,405000,Physik BSc,a
+1117,vmp,460000,Physik MSc,a
+0200,vseth,974100,Fachstudent/in Doktorat UNIBAS,g
+0200,vseth,974200,Fachstudent/in Doktorat UNIBE,g
+0200,vseth,974300,Fachstudent/in Doktorat UNIFR,g
+0200,vseth,974400,Fachstudent/in Doktorat UNIGE,g
+0200,vseth,974500,Fachstudent/in Doktorat UNIL,g
+0200,vseth,974600,Fachstudent/in Doktorat UNILU,g
+0200,vseth,974700,Fachstudent/in Doktorat UNINE,g
+0200,vseth,974800,Fachstudent/in Doktorat HSG,g
+0200,vseth,974900,Fachstudent/in Doktorat USI,g
+0200,vseth,975000,Fachstudent/in UZH,g
+0200,vseth,975300,Fachstudent/in EPFL,g
+0200,vseth,976000,Hörer/in (gebührenpflichtig),g
+0200,vseth,977000,Hörer/in ETH Zürich (gebührenfrei),g
+0200,vseth,977100,Hörer/in ETH Bereich (gebührenfrei),g
+0200,vseth,977200,Hörer/in ETH Schnuppersemester (gebührenfrei),g
