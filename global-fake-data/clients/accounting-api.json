@@ -1,0 +1,47 @@
+{
+  "name": "Accounting API",
+  "enabled": true,
+
+  "publicClient": true,
+  "serviceAccountsEnabled": true,
+  "clientAuthenticatorType": "client-secret",
+  "clientId": "accounting-api",
+  "secret": "accounting-api",
+
+  "protocol": "openid-connect",
+  "protocolMappers": [
+    {
+      "name": "Audience",
+      "protocol": "openid-connect",
+      "protocolMapper": "oidc-audience-mapper",
+      "config": {
+        "includedClientAudience": "peopleapi",
+        "idTokenClaim": "false",
+        "accessTokenClaim": "true",
+        "userinfoTokenClaim": "false"
+      }
+    },
+    {
+      "name": "People API ID",
+      "protocol": "openid-connect",
+      "protocolMapper": "oidc-usermodel-attribute-mapper",
+      "consentRequired": false,
+      "config": {
+        "introspectionTokenClaim": "true",
+        "userinfoTokenClaim": "true",
+        "userAttribute": "LDAP_ID",
+        "idTokenClaim": "true",
+        "lightweightClaim": "false",
+        "accessTokenClaim": "true",
+        "claimName": "sub",
+        "jsonTypeLabel": "String"
+      }
+    }
+  ],
+  "roles": [
+    "admin"
+  ],
+  "redirectUris": [
+    "*"
+  ]
+}
