@@ -32,7 +32,7 @@ DO_FUNNY_ADDR = 0.1
 
 
 DATE_FORMAT = "%Y-%m-%d"
-DATETIME_FORMAT = "%Y-%m-%dT%H:%M:%S.%f+0100"
+DATETIME_FORMAT = "%Y-%m-%dT%H:%M:%S.236+0100"
 
 
 class MailDomains(Enum):
@@ -245,7 +245,6 @@ class UserFaker:
         return uid
 
     def generate_user(self):
-
         programme_pick = self.pick_programme()
 
         pw = self.all_faker.password(length=8)
