@@ -1,0 +1,26 @@
+{
+  "name": "CDN Frontend",
+  "enabled": true,
+  "publicClient": true,
+  "serviceAccountsEnabled": false,
+  "clientAuthenticatorType": "client-secret",
+  "clientId": "cdn-frontend",
+  "secret": "",
+  "protocol": "openid-connect",
+  "protocolMappers": [
+    {
+      "name": "Audience",
+      "protocol": "openid-connect",
+      "protocolMapper": "oidc-audience-mapper",
+      "config": {
+        "includedClientAudience": "cdn-backend",
+        "idTokenClaim": "false",
+        "accessTokenClaim": "true",
+        "userinfoTokenClaim": "false"
+      }
+    }
+  ],
+  "redirectUris": [
+    "*"
+  ]
+}

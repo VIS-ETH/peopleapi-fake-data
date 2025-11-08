@@ -1,0 +1,17 @@
+{
+  "name": "CDN Backend",
+  "enabled": true,
+  "publicClient": true,
+  "serviceAccountsEnabled": false,
+  "clientAuthenticatorType": "client-secret",
+  "clientId": "cdn-backend",
+  "secret": "cdn-backend",
+  "protocol": "openid-connect",
+  "protocolMappers": [],
+  "roles": [
+    "vis-active"
+  ],
+  "redirectUris": [
+    "*"
+  ]
+}
