@@ -33,6 +33,17 @@
       }
     },
     {
+      "name": "Notifications API Audience",
+      "protocol": "openid-connect",
+      "protocolMapper": "oidc-audience-mapper",
+      "config": {
+        "includedClientAudience": "notifications-api",
+        "idTokenClaim": "false",
+        "accessTokenClaim": "true",
+        "userinfoTokenClaim": "false"
+      }
+    },
+    {
       "name": "Event Manager Audience",
       "protocol": "openid-connect",
       "protocolMapper": "oidc-audience-mapper",
@@ -70,6 +81,10 @@
   "clientRoles": {
     "peopleapi": [
       "sa-vis-peopleapi-eventmanager"
+    ],
+    "notifications-api": [
+      "mail",
+      "mail-sender:local-eventmanger@vis-dev.ethz.ch"
     ],
     "mail-api": [
       "send-mail"

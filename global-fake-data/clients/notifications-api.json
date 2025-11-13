@@ -1,0 +1,9 @@
+{
+  "name": "Notifications API",
+  "enabled": true,
+  "clientId": "notifications-api",
+  "roles": [
+    "mail",
+    "mail-sender:local-eventmanager@vis-dev.ethz.ch"
+  ]
+}
