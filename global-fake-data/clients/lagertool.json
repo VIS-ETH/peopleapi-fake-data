@@ -1,0 +1,15 @@
+{
+  "name": "Lagertool",
+  "enabled": true,
+  "publicClient": true,
+  "serviceAccountsEnabled": false,
+  "clientAuthenticatorType": "client-secret",
+  "clientId": "lagertool",
+  "secret": "12345_67",
+  "protocol": "openid-connect",
+  "protocolMappers": [],
+
+  "redirectUris": [
+    "*"
+  ]
+}
