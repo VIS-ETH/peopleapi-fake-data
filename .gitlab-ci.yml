@@ -1,0 +1,15 @@
+# - Clone https://gitlab.ethz.ch/vseth/sip-com-apps/dev-tools/dev-setup/
+# - Supply our fake data (clients, users, groups) during build time in correct locations
+# - docker build the different containers
+
+stages:
+  - build
+
+trigger_docker_build:
+  stage: build
+  trigger:
+    project: vseth/1100-fv/1116-vis/cit/protected-ci-cd
+    strategy: depend
+  variables:
+    TARGET_CI_PROJECT_PATH: $CI_PROJECT_PATH
+    TARGET_CI_PROJECT_BRANCH: $CI_COMMIT_BRANCH

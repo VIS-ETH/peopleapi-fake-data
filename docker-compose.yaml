@@ -1,7 +1,12 @@
 services:
+  generator:
+    build: .
+    volumes:
+      - ./generated:/mnt/import
   peopleapi:
     image: eu.gcr.io/vseth-public/dev-setup
     privileged: true
+    profiles: [dev-setup]
     volumes:
       - ./global-fake-data:/data
     ports:
