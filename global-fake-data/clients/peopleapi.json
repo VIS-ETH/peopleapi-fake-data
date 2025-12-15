@@ -4,6 +4,6 @@
   "clientId": "peopleapi",
   "roles": [
     "admin",
-    "sa-vis-peopleapi-eventmanager"
+    "vis-eventmanager-sa"
   ]
 }

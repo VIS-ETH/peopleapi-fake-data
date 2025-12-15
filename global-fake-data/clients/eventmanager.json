@@ -1,13 +1,11 @@
 {
   "name": "EventManager",
   "enabled": true,
-
   "publicClient": false,
   "serviceAccountsEnabled": true,
   "clientAuthenticatorType": "client-secret",
   "clientId": "eventmanager",
   "secret": "eventmanager",
-
   "protocol": "openid-connect",
   "protocolMappers": [
     {
@@ -71,26 +69,23 @@
       }
     }
   ],
-
   "roles": [
     "admin",
     "vis-active",
     "desko"
   ],
-
   "clientRoles": {
     "peopleapi": [
-      "sa-vis-peopleapi-eventmanager"
+      "vis-eventmanager-sa"
     ],
     "notifications-api": [
       "mail",
-      "mail-sender:local-eventmanger@vis-dev.ethz.ch"
+      "mail-sender:local-eventmanager@vis-dev.ethz.ch"
     ],
     "mail-api": [
       "send-mail"
     ]
   },
-
   "redirectUris": [
     "*"
   ]

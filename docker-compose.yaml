@@ -7,7 +7,10 @@ services:
     image: eu.gcr.io/vseth-public/dev-setup
     privileged: true
     profiles: [dev-setup]
+    depends_on:
+      generator:
+        condition: service_completed_successfully
     volumes:
-      - ./global-fake-data:/data
+      - ./generated:/data
     ports:
       - 8080:8080
