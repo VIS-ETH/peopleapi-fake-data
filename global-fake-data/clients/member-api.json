@@ -1,0 +1,40 @@
+{
+  "name": "Member API",
+  "enabled": true,
+  "publicClient": false,
+  "serviceAccountsEnabled": true,
+  "clientAuthenticatorType": "client-secret",
+  "clientId": "member-api",
+  "secret": "member-api",
+  "protocol": "openid-connect",
+  "protocolMappers": [
+    {
+      "name": "People API ID",
+      "protocol": "openid-connect",
+      "protocolMapper": "oidc-usermodel-attribute-mapper",
+      "consentRequired": false,
+      "config": {
+        "introspectionTokenClaim": "true",
+        "userinfoTokenClaim": "true",
+        "userAttribute": "LDAP_ID",
+        "idTokenClaim": "true",
+        "lightweightClaim": "false",
+        "accessTokenClaim": "true",
+        "claimName": "sub",
+        "jsonTypeLabel": "String"
+      }
+    }
+  ],
+  "roles": [
+    "admin",
+    "viewer"
+  ],
+  "clientRoles": {
+    "peopleapi": [
+      "admin"
+    ]
+  },
+  "redirectUris": [
+    "*"
+  ]
+}
