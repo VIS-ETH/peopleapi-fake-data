@@ -9,6 +9,7 @@
   "protocol": "openid-connect",
   "protocolMappers": [],
   "roles": [
+    "admin",
     "vis-active"
   ],
   "redirectUris": [
