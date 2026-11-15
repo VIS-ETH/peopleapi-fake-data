@@ -7,7 +7,10 @@ from users.models import (
     BANKS,
     DEPARTMENTS,
     EMPTY_BANK,
+    EMPTY_STUDY_INFO,
     FUNNY_ADDRESSES,
+    FV_GROUPS,
+    FV_MEMBER_EXTRA_GROUPS,
     KOMMISSION_DOMAINS,
     FakeUser,
     Programme,
@@ -29,6 +32,12 @@ BANK_ACCOUNT_IS_OWN_NAME = 0.9
 HAS_BANK_INFO = 0.6
 IS_STUDENT_AND_STAFF = 0.2
 DO_FUNNY_ADDR = 0.1
+UZH_SHARE = 0.1
+UZH_IS_STAFF = 0.1
+UZH_IS_VIS_EXTRA = 0.4
+OTHER_FV_IS_VIS_EXTRA = 0.1
+VIS_ORG_ID = "1116"
+VIS_EXTRA_GROUPS = ("vseth-1602-fvextra-vis", "vseth-1116-vis")
 
 
 DATE_FORMAT = "%Y-%m-%d"
@@ -52,17 +61,23 @@ class UserFaker:
     usernames: set[str]
     advant_uids: set[str]
     prestigeEmails: set[str]
+    uzh_mails: set[str]
     all_faker: faker.Faker
     swiss_faker: faker.Faker
     random: Random
     seed: Optional[int] = None
+    uzh_share: float
     mail_population: tuple[MailDomains, ...]
     mail_weights: tuple[float, ...]
 
-    def __init__(self, seed: Optional[int] = None) -> None:
+    def __init__(
+        self, seed: Optional[int] = None, uzh_share: float = UZH_SHARE
+    ) -> None:
         self.usernames = set()
         self.advant_uids = set()
         self.prestigeEmails = set()
+        self.uzh_mails = set()
+        self.uzh_share = uzh_share
         self.swiss_faker = faker.Faker(locale=["de_CH"])
         self.all_faker = faker.Faker()
         self.random = Random()
@@ -244,88 +259,146 @@ class UserFaker:
         self.advant_uids.add(uid)
         return uid
 
-    def generate_user(self):
-        programme_pick = self.pick_programme()
+    def generate_groups(self, membership_info: VsethMemberInfo) -> list[str]:
+        """VSETH members are in the group of their Fachverein.
+        Some members of other Fachvereine are extraordinary members of VIS."""
+        if membership_info.membership != "VSETH_MEMBERSHIP_MEMBER":
+            return []
+        fv_group = FV_GROUPS.get(membership_info.fvOrgId)
+        if fv_group is None:  # e.g. 0200 (VSETH itself), no FV
+            return []
+        groups = [*FV_MEMBER_EXTRA_GROUPS.get(membership_info.fvOrgId, ()), fv_group]
+        if (
+            membership_info.fvOrgId != VIS_ORG_ID
+            and self.random.random() <= OTHER_FV_IS_VIS_EXTRA
+        ):
+            groups += VIS_EXTRA_GROUPS
+        return groups
 
-        pw = self.all_faker.password(length=8)
+    def generate_uzh_groups(self) -> list[str]:
+        """Some UZH people are extraordinary members of VIS"""
+        if self.random.random() <= UZH_IS_VIS_EXTRA:
+            return list(VIS_EXTRA_GROUPS)
+        return []
+
+    def generate_uzh_email(self, first: str, last: str) -> str:
+        """UZH addresses look like firstname.lastname@uzh.ch"""
+        prefix = f"{first}.{last}".replace(" ", "")
+        mail = f"{prefix}@uzh.ch"
+        i = 1
+        while mail in self.uzh_mails:
+            i += 1
+            mail = f"{prefix}{i}@uzh.ch"
+        self.uzh_mails.add(mail)
+        return mail
+
+    def generate_common(self) -> dict:
+        """Fields every person has, regardless of institution"""
         first = self.all_faker.first_name()
         last = self.all_faker.last_name()
-        username = self.generate_username(first.lower(), last.lower())
-        mail = self.generate_email(username)
-        phone = self.swiss_faker.phone_number()
+        create_datetime_raw = self.all_faker.past_datetime(start_date="-20y")
+        update_datetime = self.all_faker.past_datetime(
+            start_date=create_datetime_raw
+        ).strftime(DATETIME_FORMAT)
 
-        person_id = self.all_faker.hexify("^^^^^^^^-^^^^-^^^^-^^^^-^^^^^^^^^^^^")
+        bank_info = self.generate_bank_info(first, last)
+        if self.random.random() > HAS_BANK_INFO:
+            bank_info = EMPTY_BANK
+
+        return dict(
+            username=self.generate_username(first.lower(), last.lower()),
+            password=self.all_faker.password(length=8),
+            firstName=first,
+            lastName=last,
+            telephoneNumber=self.swiss_faker.phone_number(),
+            vsethPersonId=self.all_faker.hexify(
+                "^^^^^^^^-^^^^-^^^^-^^^^-^^^^^^^^^^^^"
+            ),
+            vsethBirthDate=self.all_faker.date_of_birth(
+                minimum_age=14, maximum_age=101
+            ).strftime(DATE_FORMAT),
+            vsethCreateTime=create_datetime_raw.strftime(DATETIME_FORMAT),
+            vsethUpdateTime=update_datetime,
+            vsethPostalAddress=self.generate_address(),
+            vsethBankAccount=bank_info,
+        )
+
+    def generate_user(self) -> FakeUser:
+        if self.random.random() < self.uzh_share:
+            return self.generate_uzh_user()
+        return self.generate_eth_user()
+
+    def generate_uzh_user(self) -> FakeUser:
+        """External person studying at UZH: no ETH study info, no VSETH
+        membership and no Legi (advant/kaba). Some are extraordinary VIS members"""
+        common = self.generate_common()
+        start_year = self.all_faker.past_date(start_date="-12y").year
+        affil = "member;student"
+        if self.random.random() <= UZH_IS_STAFF:
+            affil += ";staff"
+
+        return FakeUser(
+            **common,
+            mail=self.generate_uzh_email(
+                common["firstName"].lower(), common["lastName"].lower()
+            ),
+            vsethStudentNumber=self.all_faker.numerify(
+                f"{str(start_year)[-2:]}######"
+            ),
+            vsethAlternativeEmail="",
+            vsethStudySemester=self.random.randint(1, 14),
+            vsethEthStudyInfo=EMPTY_STUDY_INFO,
+            vsethMembershipInfo=VsethMemberInfo(
+                membership="VSETH_MEMBERSHIP_NOT_MEMBER",
+                membershipType="VSETH_MEMBERSHIP_TYPE_UNSPECIFIED",
+                fvOrgId="",
+                fvOrgKey="",
+            ),
+            vsethSwissEduPersonUniqueId=self.all_faker.numerify("#######")
+            + "@uzh.ch",
+            vsethSwissEduPersonAffiliation=affil,
+            vsethAdvantUid="",
+            vsethKabaGroupHeader="",
+            groups=self.generate_uzh_groups(),
+        )
+
+    def generate_eth_user(self) -> FakeUser:
+        programme_pick = self.pick_programme()
+        common = self.generate_common()
+        username = common["username"]
+
         start_year_two_digit = str(self.all_faker.past_date(start_date="-80y").year)[
             :-2
         ]
         student_number = self.all_faker.numerify(f"{start_year_two_digit}######")
         alt_email = self.get_alt_email(
-            first.lower(),
-            last.lower(),
+            common["firstName"].lower(),
+            common["lastName"].lower(),
             username,
             programme_pick.fv_name,
         )
-        study_semester = self.random.randint(1, 20)
 
-        birthdate = self.all_faker.date_of_birth(
-            minimum_age=14, maximum_age=101
-        ).strftime(DATE_FORMAT)
-        create_datetime_raw = self.all_faker.past_datetime(start_date="-20y")
-        update_datetime = self.all_faker.past_datetime(
-            start_date=create_datetime_raw
-        ).strftime(DATETIME_FORMAT)
-        create_datetime = create_datetime_raw.strftime(DATETIME_FORMAT)
+        membership_info = self.generate_vseth_info(programme_pick)
 
-        eth_study_info: StudyInfo = self.generate_study_info(programme_pick)
-
-        membership_info: VsethMemberInfo = self.generate_vseth_info(programme_pick)
-
-        # if (
-        #     membership_info.membership != "VSETH_MEMBERSHIP_MEMBER"
-        # ):  # can't be vseth member without being vseth member, right?
-        #     alt_email = ""
-
-        vseth_postal = self.generate_address()
-
-        bank_info = self.generate_bank_info(first, last)
-        has_bank_info = self.random.random() <= HAS_BANK_INFO
-        if not has_bank_info:
-            bank_info = EMPTY_BANK
-
-        edu_person_unique = self.all_faker.numerify("#######") + "@ethz.ch"
         edu_person_affil = "member;student"
         if self.random.random() <= IS_STUDENT_AND_STAFF:
             edu_person_affil += ";staff"
 
-        # print(
-        #     username.center(20), alt_email.ljust(30), first, last, programme_pick.dept
-        # )
-        advant_uid = self.generate_advant_uid()
-        kaba_group_header = self.all_faker.numerify("%#####")
-        user = FakeUser(
-            username=username,
-            password=pw,
-            firstName=first,
-            lastName=last,
-            mail=mail,
-            telephoneNumber=phone,
-            vsethPersonId=person_id,
+        return FakeUser(
+            **common,
+            mail=self.generate_email(username),
             vsethStudentNumber=student_number,
             vsethAlternativeEmail=alt_email,
-            vsethStudySemester=study_semester,
-            vsethBirthDate=birthdate,
-            vsethCreateTime=create_datetime,
-            vsethUpdateTime=update_datetime,
-            vsethEthStudyInfo=eth_study_info,
+            vsethStudySemester=self.random.randint(1, 20),
+            vsethEthStudyInfo=self.generate_study_info(programme_pick),
             vsethMembershipInfo=membership_info,
-            vsethPostalAddress=vseth_postal,
-            vsethBankAccount=bank_info,
-            vsethSwissEduPersonUniqueId=edu_person_unique,
+            vsethSwissEduPersonUniqueId=self.all_faker.numerify("#######")
+            + "@ethz.ch",
             vsethSwissEduPersonAffiliation=edu_person_affil,
-            vsethAdvantUid=advant_uid,
-            vsethKabaGroupHeader=kaba_group_header,
+            vsethAdvantUid=self.generate_advant_uid(),
+            vsethKabaGroupHeader=self.all_faker.numerify("%#####"),
+            groups=self.generate_groups(membership_info),
         )
-        return user
 
 
 def main():
