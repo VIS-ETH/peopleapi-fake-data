@@ -1,0 +1,57 @@
+{
+  "username": "sandrasmw",
+  "password": "5kxlesNOllyB",
+  "firstName": "Sandra",
+  "lastName": "SMW",
+  "mail": "sandrasmw@student.ethz.ch",
+  "telephoneNumber": "",
+  "vsethPersonId": "20aaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "vsethStudentNumber": "23200000",
+  "vsethAlternativeEmail": "",
+  "vsethStudySemester": 3,
+  "vsethBirthdate": "2003-07-12",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethEthStudyInfo": {
+    "ethFachid": "327000",
+    "department": "D-MATL",
+    "departmentDisplayLabelDe": "Materialwissenschaft",
+    "departmentDisplayLabelEn": "Materials",
+    "studyProgramDisplayLabelDe": "Materialwissenschaft BSc",
+    "studyProgramDisplayLabelEn": "Materialwissenschaft BSc",
+    "studyFachrichtungDisplayLabelDe": "Materialwissenschaft BSc",
+    "studyFachrichtungDisplayLabelEn": "Materialwissenschaft BSc",
+    "exitDate": "2029-08-10"
+  },
+  "vsethMembershipInfo": {
+    "membership": "VSETH_MEMBERSHIP_MEMBER",
+    "membershipType": "VSETH_MEMBERSHIP_TYPE_BACHELOR_OR_MASTER",
+    "fvOrgId": "1111",
+    "fvOrgKey": "smw"
+  },
+  "vsethPostalAddress": {
+    "streetAddress": "Länggassstrasse 110",
+    "locality": "Bern",
+    "postalCode": "3012",
+    "country": "Schweiz"
+  },
+  "vsethBankAccount": {
+    "bankName": "Berner Kantonalbank",
+    "bic": "KBBECH22XXX",
+    "iban": "CH79 0079 0678 3024 4213 5",
+    "accountHolderName": "Sandra SMW",
+    "bankingAddress": {
+      "streetAddress": "Bundesplatz 8",
+      "locality": "Bern",
+      "postalCode": "3011",
+      "country": "Schweiz"
+    }
+  },
+  "vsethSwissEduPersonUniqueId": "0070020@ethz.ch",
+  "vsethSwissEduPersonAffiliation": "member;student",
+  "vsethAdvantUid": "12DF8E56C2B014",
+  "vsethKabaGroupHeader": "700020",
+  "groups": [
+    "vseth-1111-smw"
+  ]
+}

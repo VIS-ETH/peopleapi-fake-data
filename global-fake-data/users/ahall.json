@@ -1,0 +1,62 @@
+{
+  "username": "ahall",
+  "password": "X&3+7NKp",
+  "firstName": "Anthony",
+  "lastName": "Hall",
+  "mail": "ahall@student.ethz.ch",
+  "telephoneNumber": "",
+
+  "vsethPersonId": "daaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "vsethStudentNumber": "45678901",
+  "vsethAlternativeEmail": "",
+  "vsethStudySemester": 4,
+  "vsethBirthdate": "2007-03-30",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethEthStudyInfo": {
+    "ethFachid": "252000",
+    "department": "D-INFK",
+    "departmentDisplayLabelDe": "Computer Science",
+    "departmentDisplayLabelEn": "Informatik",
+    "studyProgramDisplayLabelDe": "Computer Science BSc",
+    "studyProgramDisplayLabelEn": "Informatik BSc",
+    "studyFachrichtungDisplayLabelDe": "Computer Science BSc",
+    "studyFachrichtungDisplayLabelEn": "Informatik BSc",
+    "exitDate": "2029-08-11"
+  },
+  "vsethMembershipInfo": {
+    "membership": "VSETH_MEMBERSHIP_MEMBER",
+    "membershipType": "VSETH_MEMBERSHIP_TYPE_BACHELOR_OR_MASTER",
+    "fvOrgId": "1116",
+    "fvOrgKey": "vis"
+  },
+  "vsethPostalAddress": {
+    "streetAddress": "Universitätstrasse 6",
+    "locality": "Zürich",
+    "postalCode": "8006",
+    "country": "Schweiz"
+  },
+  "vsethBankAccount": {
+    "bankName": "Credit Suisse",
+    "bic": "CRESCHZZ80A",
+    "iban": "CH00 0483 5000 0000 0000 0",
+    "accountHolderName": "Anthony Hall",
+    "bankingAddress": {
+      "streetAddress": "Universitätstrasse 6",
+      "locality": "Zürich",
+      "postalCode": "8006",
+      "country": "Schweiz"
+    }
+  },
+
+  "vsethSwissEduPersonUniqueId": "676767@ethz.ch",
+  "vsethSwissEduPersonAffiliation": "member;student",
+  "vsethAdvantUid": "45D7964B13BE8A",
+  "vsethKabaGroupHeader": "456789",
+
+  "groups": [
+    "vseth-1601-regular-vis",
+    "vseth-1116-vis",
+    "vseth-1116-vis-kom-cat"
+  ]
+}

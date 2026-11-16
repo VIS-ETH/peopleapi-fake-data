@@ -1,0 +1,57 @@
+{
+  "username": "fritzvmp",
+  "password": "N8ElXZYhzl0O",
+  "firstName": "Fritz",
+  "lastName": "VMP",
+  "mail": "fritzvmp@student.ethz.ch",
+  "telephoneNumber": "",
+  "vsethPersonId": "25aaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "vsethStudentNumber": "23250000",
+  "vsethAlternativeEmail": "",
+  "vsethStudySemester": 3,
+  "vsethBirthdate": "2003-07-12",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethEthStudyInfo": {
+    "ethFachid": "404000",
+    "department": "D-MATH",
+    "departmentDisplayLabelDe": "Mathematik",
+    "departmentDisplayLabelEn": "Mathematics",
+    "studyProgramDisplayLabelDe": "Mathematik BSc",
+    "studyProgramDisplayLabelEn": "Mathematik BSc",
+    "studyFachrichtungDisplayLabelDe": "Mathematik BSc",
+    "studyFachrichtungDisplayLabelEn": "Mathematik BSc",
+    "exitDate": "2029-08-10"
+  },
+  "vsethMembershipInfo": {
+    "membership": "VSETH_MEMBERSHIP_MEMBER",
+    "membershipType": "VSETH_MEMBERSHIP_TYPE_BACHELOR_OR_MASTER",
+    "fvOrgId": "1117",
+    "fvOrgKey": "vmp"
+  },
+  "vsethPostalAddress": {
+    "streetAddress": "Seefeldstrasse 43",
+    "locality": "Zürich",
+    "postalCode": "8008",
+    "country": "Schweiz"
+  },
+  "vsethBankAccount": {
+    "bankName": "PostFinance AG",
+    "bic": "POFICHBEXXX",
+    "iban": "CH20 0900 0325 2226 1498 8",
+    "accountHolderName": "Fritz VMP",
+    "bankingAddress": {
+      "streetAddress": "Mingerstrasse 20",
+      "locality": "Bern",
+      "postalCode": "3030",
+      "country": "Schweiz"
+    }
+  },
+  "vsethSwissEduPersonUniqueId": "0070025@ethz.ch",
+  "vsethSwissEduPersonAffiliation": "member;student",
+  "vsethAdvantUid": "12DF8E56C2B019",
+  "vsethKabaGroupHeader": "700025",
+  "groups": [
+    "vseth-1117-vmp"
+  ]
+}

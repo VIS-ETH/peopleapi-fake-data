@@ -1,6 +1,8 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Literal
 
+import csv
 import json
 
 
@@ -137,6 +139,19 @@ class VsethBank:
     bankingAddress: BankAddress
 
 
+EMPTY_STUDY_INFO = StudyInfo(
+    ethFachid="",
+    department="",
+    departmentDisplayLabelDe="",
+    departmentDisplayLabelEn="",
+    studyProgramDisplayLabelDe="",
+    studyProgramDisplayLabelEn="",
+    studyFachrichtungDisplayLabelDe="",
+    studyFachrichtungDisplayLabelEn="",
+    exitDate="",
+)
+
+
 EMPTY_BANK = VsethBank(
     accountHolderName="",
     bankingAddress=VsethPostAddr("", "", "", ""),
@@ -169,6 +184,7 @@ class FakeUser:
     vsethSwissEduPersonAffiliation: str
     vsethAdvantUid: str
     vsethKabaGroupHeader: str
+    groups: list[str] = field(default_factory=list)
 
     def toJSON(self):
         return json.dumps(
@@ -198,3 +214,26 @@ FUNNY_ADDRESSES: list[VsethPostAddr] = [
         streetAddress="Ten Post office Sq",
     ),
 ]
+
+
+def _load_fv_groups() -> dict[str, str]:
+    """Map FV org id (e.g. "1116") to its people-api group (e.g. "vseth-1116-vis").
+    Source: data/fv.csv. "vseth-1100-fv" (VSETH Allgemein) is the umbrella org,
+    no student is a member of it directly."""
+    path = Path(__file__).parent / "data" / "fv.csv"
+    res: dict[str, str] = {}
+    with path.open(encoding="utf-8", newline="") as f:
+        for row in csv.DictReader(f):
+            group = row["ID"].strip()
+            org_id = group.split("-")[1]
+            if org_id == "1100":
+                continue
+            res[org_id] = group
+    return res
+
+
+FV_GROUPS: dict[str, str] = _load_fv_groups()
+
+FV_MEMBER_EXTRA_GROUPS: dict[str, tuple[str, ...]] = {
+    "1116": ("vseth-1601-regular-vis",),
+}

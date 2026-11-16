@@ -1,0 +1,57 @@
+{
+  "username": "paulaapv",
+  "password": "bVFYtjVqq9P9",
+  "firstName": "Paula",
+  "lastName": "APV",
+  "mail": "paulaapv@student.ethz.ch",
+  "telephoneNumber": "",
+  "vsethPersonId": "12aaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "vsethStudentNumber": "23120000",
+  "vsethAlternativeEmail": "",
+  "vsethStudySemester": 3,
+  "vsethBirthdate": "2003-07-12",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethEthStudyInfo": {
+    "ethFachid": "537000",
+    "department": "D-CHAB",
+    "departmentDisplayLabelDe": "Chemie und Angewandte Biowissenschaften",
+    "departmentDisplayLabelEn": "Chemistry and Applied Biosciences",
+    "studyProgramDisplayLabelDe": "Pharmazeutische Wissenschaften BSc",
+    "studyProgramDisplayLabelEn": "Pharmazeutische Wissenschaften BSc",
+    "studyFachrichtungDisplayLabelDe": "Pharmazeutische Wissenschaften BSc",
+    "studyFachrichtungDisplayLabelEn": "Pharmazeutische Wissenschaften BSc",
+    "exitDate": "2029-08-10"
+  },
+  "vsethMembershipInfo": {
+    "membership": "VSETH_MEMBERSHIP_MEMBER",
+    "membershipType": "VSETH_MEMBERSHIP_TYPE_BACHELOR_OR_MASTER",
+    "fvOrgId": "1103",
+    "fvOrgKey": "apv"
+  },
+  "vsethPostalAddress": {
+    "streetAddress": "Weinbergstrasse 37",
+    "locality": "Zürich",
+    "postalCode": "8006",
+    "country": "Schweiz"
+  },
+  "vsethBankAccount": {
+    "bankName": "Basler Kantonalbank",
+    "bic": "BKBBCHBBXXX",
+    "iban": "CH85 0077 0170 9695 8303 7",
+    "accountHolderName": "Paula APV",
+    "bankingAddress": {
+      "streetAddress": "Aeschenvorstadt 41",
+      "locality": "Basel",
+      "postalCode": "4051",
+      "country": "Schweiz"
+    }
+  },
+  "vsethSwissEduPersonUniqueId": "0070012@ethz.ch",
+  "vsethSwissEduPersonAffiliation": "member;student",
+  "vsethAdvantUid": "12DF8E56C2B00C",
+  "vsethKabaGroupHeader": "700012",
+  "groups": [
+    "vseth-1103-apv"
+  ]
+}

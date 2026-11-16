@@ -1,0 +1,22 @@
+{
+  "name": "vseth-1113-vcs",
+  "description": "Main group of the VCS student association.",
+  "vsethOrgId": "1113",
+  "vsethObjectType": "GROUP_OBJECT_TYPE_OU",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethDisplayName": "VCS",
+  "vsethTitleDe": "Fachverein VCS an der ETH Zürich",
+  "vsethTitleEn": "Student association VCS at ETH Zurich",
+  "vsethEmail": "",
+  "vsethEthOffice": "",
+  "vsethWebsite": "",
+  "vsethTelephone": "",
+  "vsethEthOrgId": "",
+  "vsethPostalAddress": {
+    "streetAddress": "Universitätsstrasse 6",
+    "locality": "Zürich",
+    "postalCode": "8092",
+    "country": "CH"
+  }
+}

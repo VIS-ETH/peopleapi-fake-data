@@ -71,8 +71,7 @@
   ],
   "roles": [
     "admin",
-    "vis-active",
-    "desko"
+    "editor"
   ],
   "clientRoles": {
     "peopleapi": [

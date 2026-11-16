@@ -1,0 +1,57 @@
+{
+  "username": "giangess",
+  "password": "kzxT7aPH4YRK",
+  "firstName": "Gian",
+  "lastName": "GESS",
+  "mail": "giangess@student.ethz.ch",
+  "telephoneNumber": "",
+  "vsethPersonId": "16aaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "vsethStudentNumber": "23160000",
+  "vsethAlternativeEmail": "",
+  "vsethStudySemester": 3,
+  "vsethBirthdate": "2003-07-12",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethEthStudyInfo": {
+    "ethFachid": "853100",
+    "department": "D-GESS",
+    "departmentDisplayLabelDe": "Geistes-, Sozial- und Staatswissenschaften",
+    "departmentDisplayLabelEn": "Humanities, Social and Political Sciences",
+    "studyProgramDisplayLabelDe": "Staatswissenschaften BA",
+    "studyProgramDisplayLabelEn": "Staatswissenschaften BA",
+    "studyFachrichtungDisplayLabelDe": "Staatswissenschaften BA",
+    "studyFachrichtungDisplayLabelEn": "Staatswissenschaften BA",
+    "exitDate": "2029-08-10"
+  },
+  "vsethMembershipInfo": {
+    "membership": "VSETH_MEMBERSHIP_MEMBER",
+    "membershipType": "VSETH_MEMBERSHIP_TYPE_BACHELOR_OR_MASTER",
+    "fvOrgId": "1107",
+    "fvOrgKey": "gesswho"
+  },
+  "vsethPostalAddress": {
+    "streetAddress": "Langstrasse 73",
+    "locality": "Zürich",
+    "postalCode": "8004",
+    "country": "Schweiz"
+  },
+  "vsethBankAccount": {
+    "bankName": "Basler Kantonalbank",
+    "bic": "BKBBCHBBXXX",
+    "iban": "CH87 0077 0541 6671 4621 2",
+    "accountHolderName": "Gian GESS",
+    "bankingAddress": {
+      "streetAddress": "Aeschenvorstadt 41",
+      "locality": "Basel",
+      "postalCode": "4051",
+      "country": "Schweiz"
+    }
+  },
+  "vsethSwissEduPersonUniqueId": "0070016@ethz.ch",
+  "vsethSwissEduPersonAffiliation": "member;student",
+  "vsethAdvantUid": "12DF8E56C2B010",
+  "vsethKabaGroupHeader": "700016",
+  "groups": [
+    "vseth-1107-gess"
+  ]
+}

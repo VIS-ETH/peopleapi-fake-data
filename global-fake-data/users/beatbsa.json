@@ -1,0 +1,57 @@
+{
+  "username": "beatbsa",
+  "password": "ncHQkdRbXtBC",
+  "firstName": "Beat",
+  "lastName": "BSA",
+  "mail": "beatbsa@student.ethz.ch",
+  "telephoneNumber": "",
+  "vsethPersonId": "14aaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "vsethStudentNumber": "23140000",
+  "vsethAlternativeEmail": "",
+  "vsethStudySemester": 3,
+  "vsethBirthdate": "2003-07-12",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethEthStudyInfo": {
+    "ethFachid": "636000",
+    "department": "D-BSSE",
+    "departmentDisplayLabelDe": "Biosysteme",
+    "departmentDisplayLabelEn": "Biosystems Science and Engineering",
+    "studyProgramDisplayLabelDe": "Biotechnologie MSc",
+    "studyProgramDisplayLabelEn": "Biotechnologie MSc",
+    "studyFachrichtungDisplayLabelDe": "Biotechnologie MSc",
+    "studyFachrichtungDisplayLabelEn": "Biotechnologie MSc",
+    "exitDate": "2029-08-10"
+  },
+  "vsethMembershipInfo": {
+    "membership": "VSETH_MEMBERSHIP_MEMBER",
+    "membershipType": "VSETH_MEMBERSHIP_TYPE_BACHELOR_OR_MASTER",
+    "fvOrgId": "1105",
+    "fvOrgKey": "bsa"
+  },
+  "vsethPostalAddress": {
+    "streetAddress": "Zugerstrasse 62",
+    "locality": "Baar",
+    "postalCode": "6340",
+    "country": "Schweiz"
+  },
+  "vsethBankAccount": {
+    "bankName": "Basler Kantonalbank",
+    "bic": "BKBBCHBBXXX",
+    "iban": "CH94 0077 0166 1194 9479 9",
+    "accountHolderName": "Beat BSA",
+    "bankingAddress": {
+      "streetAddress": "Aeschenvorstadt 41",
+      "locality": "Basel",
+      "postalCode": "4051",
+      "country": "Schweiz"
+    }
+  },
+  "vsethSwissEduPersonUniqueId": "0070014@ethz.ch",
+  "vsethSwissEduPersonAffiliation": "member;student",
+  "vsethAdvantUid": "12DF8E56C2B00E",
+  "vsethKabaGroupHeader": "700014",
+  "groups": [
+    "vseth-1105-bsa"
+  ]
+}

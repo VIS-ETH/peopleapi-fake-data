@@ -1,0 +1,57 @@
+{
+  "username": "arnoarch",
+  "password": "eapYN2JeTse3",
+  "firstName": "Arno",
+  "lastName": "Architektura",
+  "mail": "arnoarch@student.ethz.ch",
+  "telephoneNumber": "",
+  "vsethPersonId": "13aaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "vsethStudentNumber": "23130000",
+  "vsethAlternativeEmail": "",
+  "vsethStudySemester": 3,
+  "vsethBirthdate": "2003-07-12",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethEthStudyInfo": {
+    "ethFachid": "052000",
+    "department": "D-ARCH",
+    "departmentDisplayLabelDe": "Architektur",
+    "departmentDisplayLabelEn": "Architecture",
+    "studyProgramDisplayLabelDe": "Architektur BSc",
+    "studyProgramDisplayLabelEn": "Architektur BSc",
+    "studyFachrichtungDisplayLabelDe": "Architektur BSc",
+    "studyFachrichtungDisplayLabelEn": "Architektur BSc",
+    "exitDate": "2029-08-10"
+  },
+  "vsethMembershipInfo": {
+    "membership": "VSETH_MEMBERSHIP_MEMBER",
+    "membershipType": "VSETH_MEMBERSHIP_TYPE_BACHELOR_OR_MASTER",
+    "fvOrgId": "1104",
+    "fvOrgKey": "architektura"
+  },
+  "vsethPostalAddress": {
+    "streetAddress": "Zürichstrasse 61",
+    "locality": "Luzern",
+    "postalCode": "6004",
+    "country": "Schweiz"
+  },
+  "vsethBankAccount": {
+    "bankName": "Raiffeisen Schweiz",
+    "bic": "RAIFCH22XXX",
+    "iban": "CH56 8080 8345 5482 5309 4",
+    "accountHolderName": "Arno Architektura",
+    "bankingAddress": {
+      "streetAddress": "Raiffeisenplatz 4",
+      "locality": "St. Gallen",
+      "postalCode": "9001",
+      "country": "Schweiz"
+    }
+  },
+  "vsethSwissEduPersonUniqueId": "0070013@ethz.ch",
+  "vsethSwissEduPersonAffiliation": "member;student",
+  "vsethAdvantUid": "12DF8E56C2B00D",
+  "vsethKabaGroupHeader": "700013",
+  "groups": [
+    "vseth-1104-arch"
+  ]
+}

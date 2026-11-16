@@ -1,0 +1,22 @@
+{
+  "name": "vseth-1109-heat",
+  "description": "Main group of the HeaT student association.",
+  "vsethOrgId": "1109",
+  "vsethObjectType": "GROUP_OBJECT_TYPE_OU",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethDisplayName": "HeaT",
+  "vsethTitleDe": "Fachverein HeaT an der ETH Zürich",
+  "vsethTitleEn": "Student association HeaT at ETH Zurich",
+  "vsethEmail": "",
+  "vsethEthOffice": "",
+  "vsethWebsite": "",
+  "vsethTelephone": "",
+  "vsethEthOrgId": "",
+  "vsethPostalAddress": {
+    "streetAddress": "Universitätsstrasse 6",
+    "locality": "Zürich",
+    "postalCode": "8092",
+    "country": "CH"
+  }
+}
