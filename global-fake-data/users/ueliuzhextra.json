@@ -1,0 +1,58 @@
+{
+  "username": "ueliuzhextra",
+  "password": "dl1kGXoQKQEP",
+  "firstName": "Ueli",
+  "lastName": "UZH-VIS-Extra",
+  "mail": "ueli.uzh-vis-extra@uzh.ch",
+  "telephoneNumber": "",
+  "vsethPersonId": "28aaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "vsethStudentNumber": "23280000",
+  "vsethAlternativeEmail": "",
+  "vsethStudySemester": 3,
+  "vsethBirthdate": "2003-07-12",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethEthStudyInfo": {
+    "ethFachid": "",
+    "department": "",
+    "departmentDisplayLabelDe": "",
+    "departmentDisplayLabelEn": "",
+    "studyProgramDisplayLabelDe": "",
+    "studyProgramDisplayLabelEn": "",
+    "studyFachrichtungDisplayLabelDe": "",
+    "studyFachrichtungDisplayLabelEn": "",
+    "exitDate": ""
+  },
+  "vsethMembershipInfo": {
+    "membership": "VSETH_MEMBERSHIP_NOT_MEMBER",
+    "membershipType": "VSETH_MEMBERSHIP_TYPE_UNSPECIFIED",
+    "fvOrgId": "",
+    "fvOrgKey": ""
+  },
+  "vsethPostalAddress": {
+    "streetAddress": "",
+    "locality": "",
+    "postalCode": "",
+    "country": ""
+  },
+  "vsethBankAccount": {
+    "bankName": "",
+    "bic": "",
+    "iban": "",
+    "accountHolderName": "",
+    "bankingAddress": {
+      "streetAddress": "",
+      "locality": "",
+      "postalCode": "",
+      "country": ""
+    }
+  },
+  "vsethSwissEduPersonUniqueId": "0070028@uzh.ch",
+  "vsethSwissEduPersonAffiliation": "member;student",
+  "vsethAdvantUid": "",
+  "vsethKabaGroupHeader": "",
+  "groups": [
+    "vseth-1602-fvextra-vis",
+    "vseth-1116-vis"
+  ]
+}

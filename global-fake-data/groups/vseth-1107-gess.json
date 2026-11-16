@@ -1,0 +1,22 @@
+{
+  "name": "vseth-1107-gess",
+  "description": "Main group of the GESS Who! student association.",
+  "vsethOrgId": "1107",
+  "vsethObjectType": "GROUP_OBJECT_TYPE_OU",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethDisplayName": "GESS Who!",
+  "vsethTitleDe": "Fachverein GESS Who! an der ETH Zürich",
+  "vsethTitleEn": "Student association GESS Who! at ETH Zurich",
+  "vsethEmail": "",
+  "vsethEthOffice": "",
+  "vsethWebsite": "",
+  "vsethTelephone": "",
+  "vsethEthOrgId": "",
+  "vsethPostalAddress": {
+    "streetAddress": "Universitätsstrasse 6",
+    "locality": "Zürich",
+    "postalCode": "8092",
+    "country": "CH"
+  }
+}

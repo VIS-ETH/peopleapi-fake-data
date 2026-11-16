@@ -1,0 +1,57 @@
+{
+  "username": "adrianaiv",
+  "password": "k0fMjMFXE6X8",
+  "firstName": "Adrian",
+  "lastName": "AIV",
+  "mail": "adrianaiv@student.ethz.ch",
+  "telephoneNumber": "",
+  "vsethPersonId": "10aaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "vsethStudentNumber": "23100000",
+  "vsethAlternativeEmail": "",
+  "vsethStudySemester": 3,
+  "vsethBirthdate": "2003-07-12",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethEthStudyInfo": {
+    "ethFachid": "104000",
+    "department": "D-BAUG",
+    "departmentDisplayLabelDe": "Bau, Umwelt und Geomatik",
+    "departmentDisplayLabelEn": "Civil, Environmental and Geomatic Engineering",
+    "studyProgramDisplayLabelDe": "Bauingenieurwissenschaften BSc",
+    "studyProgramDisplayLabelEn": "Bauingenieurwissenschaften BSc",
+    "studyFachrichtungDisplayLabelDe": "Bauingenieurwissenschaften BSc",
+    "studyFachrichtungDisplayLabelEn": "Bauingenieurwissenschaften BSc",
+    "exitDate": "2029-08-10"
+  },
+  "vsethMembershipInfo": {
+    "membership": "VSETH_MEMBERSHIP_MEMBER",
+    "membershipType": "VSETH_MEMBERSHIP_TYPE_BACHELOR_OR_MASTER",
+    "fvOrgId": "1101",
+    "fvOrgKey": "aiv"
+  },
+  "vsethPostalAddress": {
+    "streetAddress": "Länggassstrasse 40",
+    "locality": "Bern",
+    "postalCode": "3012",
+    "country": "Schweiz"
+  },
+  "vsethBankAccount": {
+    "bankName": "Berner Kantonalbank",
+    "bic": "KBBECH22XXX",
+    "iban": "CH38 0079 0801 2822 2980 8",
+    "accountHolderName": "Adrian AIV",
+    "bankingAddress": {
+      "streetAddress": "Bundesplatz 8",
+      "locality": "Bern",
+      "postalCode": "3011",
+      "country": "Schweiz"
+    }
+  },
+  "vsethSwissEduPersonUniqueId": "0070010@ethz.ch",
+  "vsethSwissEduPersonAffiliation": "member;student",
+  "vsethAdvantUid": "12DF8E56C2B00A",
+  "vsethKabaGroupHeader": "700010",
+  "groups": [
+    "vseth-1101-aiv"
+  ]
+}

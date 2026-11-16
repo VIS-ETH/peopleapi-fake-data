@@ -1,0 +1,57 @@
+{
+  "username": "gretageso",
+  "password": "JQPLU6Z2iSVu",
+  "firstName": "Greta",
+  "lastName": "GESO",
+  "mail": "gretageso@student.ethz.ch",
+  "telephoneNumber": "",
+  "vsethPersonId": "17aaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "vsethStudentNumber": "23170000",
+  "vsethAlternativeEmail": "",
+  "vsethStudySemester": 3,
+  "vsethBirthdate": "2003-07-12",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethEthStudyInfo": {
+    "ethFachid": "107000",
+    "department": "D-BAUG",
+    "departmentDisplayLabelDe": "Bau, Umwelt und Geomatik",
+    "departmentDisplayLabelEn": "Civil, Environmental and Geomatic Engineering",
+    "studyProgramDisplayLabelDe": "Raumbezogene Ingenieurwissenschaften BSc",
+    "studyProgramDisplayLabelEn": "Raumbezogene Ingenieurwissenschaften BSc",
+    "studyFachrichtungDisplayLabelDe": "Raumbezogene Ingenieurwissenschaften BSc",
+    "studyFachrichtungDisplayLabelEn": "Raumbezogene Ingenieurwissenschaften BSc",
+    "exitDate": "2029-08-10"
+  },
+  "vsethMembershipInfo": {
+    "membership": "VSETH_MEMBERSHIP_MEMBER",
+    "membershipType": "VSETH_MEMBERSHIP_TYPE_BACHELOR_OR_MASTER",
+    "fvOrgId": "1108",
+    "fvOrgKey": "geso"
+  },
+  "vsethPostalAddress": {
+    "streetAddress": "Winterthurerstrasse 25",
+    "locality": "Zürich",
+    "postalCode": "8006",
+    "country": "Schweiz"
+  },
+  "vsethBankAccount": {
+    "bankName": "PostFinance AG",
+    "bic": "POFICHBEXXX",
+    "iban": "CH10 0900 0765 9986 7868 1",
+    "accountHolderName": "Greta GESO",
+    "bankingAddress": {
+      "streetAddress": "Mingerstrasse 20",
+      "locality": "Bern",
+      "postalCode": "3030",
+      "country": "Schweiz"
+    }
+  },
+  "vsethSwissEduPersonUniqueId": "0070017@ethz.ch",
+  "vsethSwissEduPersonAffiliation": "member;student",
+  "vsethAdvantUid": "12DF8E56C2B011",
+  "vsethKabaGroupHeader": "700017",
+  "groups": [
+    "vseth-1108-geso"
+  ]
+}

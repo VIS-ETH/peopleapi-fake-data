@@ -1,0 +1,57 @@
+{
+  "username": "elenaerfa",
+  "password": "sYiFqu93b3B4",
+  "firstName": "Elena",
+  "lastName": "Erfa",
+  "mail": "elenaerfa@student.ethz.ch",
+  "telephoneNumber": "",
+  "vsethPersonId": "15aaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "vsethStudentNumber": "23150000",
+  "vsethAlternativeEmail": "",
+  "vsethStudySemester": 3,
+  "vsethBirthdate": "2003-07-12",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethEthStudyInfo": {
+    "ethFachid": "652100",
+    "department": "D-EAPS",
+    "departmentDisplayLabelDe": "Erd- und Planetenwissenschaften",
+    "departmentDisplayLabelEn": "Earth and Planetary Sciences",
+    "studyProgramDisplayLabelDe": "Erd- und Klimawissenschaften BSc",
+    "studyProgramDisplayLabelEn": "Erd- und Klimawissenschaften BSc",
+    "studyFachrichtungDisplayLabelDe": "Erd- und Klimawissenschaften BSc",
+    "studyFachrichtungDisplayLabelEn": "Erd- und Klimawissenschaften BSc",
+    "exitDate": "2029-08-10"
+  },
+  "vsethMembershipInfo": {
+    "membership": "VSETH_MEMBERSHIP_MEMBER",
+    "membershipType": "VSETH_MEMBERSHIP_TYPE_BACHELOR_OR_MASTER",
+    "fvOrgId": "1106",
+    "fvOrgKey": "erfa"
+  },
+  "vsethPostalAddress": {
+    "streetAddress": "Badenerstrasse 48",
+    "locality": "Zürich",
+    "postalCode": "8004",
+    "country": "Schweiz"
+  },
+  "vsethBankAccount": {
+    "bankName": "PostFinance AG",
+    "bic": "POFICHBEXXX",
+    "iban": "CH70 0900 0997 4262 6320 7",
+    "accountHolderName": "Elena Erfa",
+    "bankingAddress": {
+      "streetAddress": "Mingerstrasse 20",
+      "locality": "Bern",
+      "postalCode": "3030",
+      "country": "Schweiz"
+    }
+  },
+  "vsethSwissEduPersonUniqueId": "0070015@ethz.ch",
+  "vsethSwissEduPersonAffiliation": "member;student",
+  "vsethAdvantUid": "12DF8E56C2B00F",
+  "vsethKabaGroupHeader": "700015",
+  "groups": [
+    "vseth-1106-erfa"
+  ]
+}
