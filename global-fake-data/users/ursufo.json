@@ -30,21 +30,21 @@
     "fvOrgKey": "ufo"
   },
   "vsethPostalAddress": {
-    "streetAddress": "",
-    "locality": "",
-    "postalCode": "",
-    "country": ""
+    "streetAddress": "Technikumstrasse 40",
+    "locality": "Winterthur",
+    "postalCode": "8400",
+    "country": "Schweiz"
   },
   "vsethBankAccount": {
-    "bankName": "",
-    "bic": "",
-    "iban": "",
-    "accountHolderName": "",
+    "bankName": "Basler Kantonalbank",
+    "bic": "BKBBCHBBXXX",
+    "iban": "CH08 0077 0175 4650 8570 1",
+    "accountHolderName": "Urs UFO",
     "bankingAddress": {
-      "streetAddress": "",
-      "locality": "",
-      "postalCode": "",
-      "country": ""
+      "streetAddress": "Aeschenvorstadt 41",
+      "locality": "Basel",
+      "postalCode": "4051",
+      "country": "Schweiz"
     }
   },
   "vsethSwissEduPersonUniqueId": "0070021@ethz.ch",

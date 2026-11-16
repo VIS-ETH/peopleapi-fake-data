@@ -30,21 +30,21 @@
     "fvOrgKey": "erfa"
   },
   "vsethPostalAddress": {
-    "streetAddress": "",
-    "locality": "",
-    "postalCode": "",
-    "country": ""
+    "streetAddress": "Badenerstrasse 48",
+    "locality": "Zürich",
+    "postalCode": "8004",
+    "country": "Schweiz"
   },
   "vsethBankAccount": {
-    "bankName": "",
-    "bic": "",
-    "iban": "",
-    "accountHolderName": "",
+    "bankName": "PostFinance AG",
+    "bic": "POFICHBEXXX",
+    "iban": "CH70 0900 0997 4262 6320 7",
+    "accountHolderName": "Elena Erfa",
     "bankingAddress": {
-      "streetAddress": "",
-      "locality": "",
-      "postalCode": "",
-      "country": ""
+      "streetAddress": "Mingerstrasse 20",
+      "locality": "Bern",
+      "postalCode": "3030",
+      "country": "Schweiz"
     }
   },
   "vsethSwissEduPersonUniqueId": "0070015@ethz.ch",

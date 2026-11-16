@@ -30,21 +30,21 @@
     "fvOrgKey": "apv"
   },
   "vsethPostalAddress": {
-    "streetAddress": "",
-    "locality": "",
-    "postalCode": "",
-    "country": ""
+    "streetAddress": "Weinbergstrasse 37",
+    "locality": "Zürich",
+    "postalCode": "8006",
+    "country": "Schweiz"
   },
   "vsethBankAccount": {
-    "bankName": "",
-    "bic": "",
-    "iban": "",
-    "accountHolderName": "",
+    "bankName": "Basler Kantonalbank",
+    "bic": "BKBBCHBBXXX",
+    "iban": "CH85 0077 0170 9695 8303 7",
+    "accountHolderName": "Paula APV",
     "bankingAddress": {
-      "streetAddress": "",
-      "locality": "",
-      "postalCode": "",
-      "country": ""
+      "streetAddress": "Aeschenvorstadt 41",
+      "locality": "Basel",
+      "postalCode": "4051",
+      "country": "Schweiz"
     }
   },
   "vsethSwissEduPersonUniqueId": "0070012@ethz.ch",

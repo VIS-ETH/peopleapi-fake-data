@@ -30,21 +30,21 @@
     "fvOrgKey": "vmp"
   },
   "vsethPostalAddress": {
-    "streetAddress": "",
-    "locality": "",
-    "postalCode": "",
-    "country": ""
+    "streetAddress": "Seefeldstrasse 43",
+    "locality": "Zürich",
+    "postalCode": "8008",
+    "country": "Schweiz"
   },
   "vsethBankAccount": {
-    "bankName": "",
-    "bic": "",
-    "iban": "",
-    "accountHolderName": "",
+    "bankName": "PostFinance AG",
+    "bic": "POFICHBEXXX",
+    "iban": "CH20 0900 0325 2226 1498 8",
+    "accountHolderName": "Fritz VMP",
     "bankingAddress": {
-      "streetAddress": "",
-      "locality": "",
-      "postalCode": "",
-      "country": ""
+      "streetAddress": "Mingerstrasse 20",
+      "locality": "Bern",
+      "postalCode": "3030",
+      "country": "Schweiz"
     }
   },
   "vsethSwissEduPersonUniqueId": "0070025@ethz.ch",

@@ -30,21 +30,21 @@
     "fvOrgKey": "heat"
   },
   "vsethPostalAddress": {
-    "streetAddress": "",
-    "locality": "",
-    "postalCode": "",
-    "country": ""
+    "streetAddress": "Länggassstrasse 104",
+    "locality": "Bern",
+    "postalCode": "3012",
+    "country": "Schweiz"
   },
   "vsethBankAccount": {
-    "bankName": "",
-    "bic": "",
-    "iban": "",
-    "accountHolderName": "",
+    "bankName": "Basler Kantonalbank",
+    "bic": "BKBBCHBBXXX",
+    "iban": "CH44 0077 0907 4301 4171 7",
+    "accountHolderName": "Hannes HeaT",
     "bankingAddress": {
-      "streetAddress": "",
-      "locality": "",
-      "postalCode": "",
-      "country": ""
+      "streetAddress": "Aeschenvorstadt 41",
+      "locality": "Basel",
+      "postalCode": "4051",
+      "country": "Schweiz"
     }
   },
   "vsethSwissEduPersonUniqueId": "0070018@ethz.ch",

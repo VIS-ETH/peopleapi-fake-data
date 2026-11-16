@@ -30,21 +30,21 @@
     "fvOrgKey": "amiv"
   },
   "vsethPostalAddress": {
-    "streetAddress": "",
-    "locality": "",
-    "postalCode": "",
-    "country": ""
+    "streetAddress": "Rautistrasse 112",
+    "locality": "Zürich",
+    "postalCode": "8047",
+    "country": "Schweiz"
   },
   "vsethBankAccount": {
-    "bankName": "",
-    "bic": "",
-    "iban": "",
-    "accountHolderName": "",
+    "bankName": "Basler Kantonalbank",
+    "bic": "BKBBCHBBXXX",
+    "iban": "CH95 0077 0971 3853 1220 7",
+    "accountHolderName": "Mia AMIV",
     "bankingAddress": {
-      "streetAddress": "",
-      "locality": "",
-      "postalCode": "",
-      "country": ""
+      "streetAddress": "Aeschenvorstadt 41",
+      "locality": "Basel",
+      "postalCode": "4051",
+      "country": "Schweiz"
     }
   },
   "vsethSwissEduPersonUniqueId": "0070011@ethz.ch",

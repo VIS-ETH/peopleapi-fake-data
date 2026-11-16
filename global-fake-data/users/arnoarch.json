@@ -30,21 +30,21 @@
     "fvOrgKey": "architektura"
   },
   "vsethPostalAddress": {
-    "streetAddress": "",
-    "locality": "",
-    "postalCode": "",
-    "country": ""
+    "streetAddress": "Zürichstrasse 61",
+    "locality": "Luzern",
+    "postalCode": "6004",
+    "country": "Schweiz"
   },
   "vsethBankAccount": {
-    "bankName": "",
-    "bic": "",
-    "iban": "",
-    "accountHolderName": "",
+    "bankName": "Raiffeisen Schweiz",
+    "bic": "RAIFCH22XXX",
+    "iban": "CH56 8080 8345 5482 5309 4",
+    "accountHolderName": "Arno Architektura",
     "bankingAddress": {
-      "streetAddress": "",
-      "locality": "",
-      "postalCode": "",
-      "country": ""
+      "streetAddress": "Raiffeisenplatz 4",
+      "locality": "St. Gallen",
+      "postalCode": "9001",
+      "country": "Schweiz"
     }
   },
   "vsethSwissEduPersonUniqueId": "0070013@ethz.ch",

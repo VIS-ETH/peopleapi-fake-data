@@ -30,21 +30,21 @@
     "fvOrgKey": "gesswho"
   },
   "vsethPostalAddress": {
-    "streetAddress": "",
-    "locality": "",
-    "postalCode": "",
-    "country": ""
+    "streetAddress": "Langstrasse 73",
+    "locality": "Zürich",
+    "postalCode": "8004",
+    "country": "Schweiz"
   },
   "vsethBankAccount": {
-    "bankName": "",
-    "bic": "",
-    "iban": "",
-    "accountHolderName": "",
+    "bankName": "Basler Kantonalbank",
+    "bic": "BKBBCHBBXXX",
+    "iban": "CH87 0077 0541 6671 4621 2",
+    "accountHolderName": "Gian GESS",
     "bankingAddress": {
-      "streetAddress": "",
-      "locality": "",
-      "postalCode": "",
-      "country": ""
+      "streetAddress": "Aeschenvorstadt 41",
+      "locality": "Basel",
+      "postalCode": "4051",
+      "country": "Schweiz"
     }
   },
   "vsethSwissEduPersonUniqueId": "0070016@ethz.ch",

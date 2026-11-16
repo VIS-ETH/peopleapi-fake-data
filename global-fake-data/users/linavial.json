@@ -30,21 +30,21 @@
     "fvOrgKey": "vial"
   },
   "vsethPostalAddress": {
-    "streetAddress": "",
-    "locality": "",
-    "postalCode": "",
-    "country": ""
+    "streetAddress": "Zürichstrasse 21",
+    "locality": "Luzern",
+    "postalCode": "6004",
+    "country": "Schweiz"
   },
   "vsethBankAccount": {
-    "bankName": "",
-    "bic": "",
-    "iban": "",
-    "accountHolderName": "",
+    "bankName": "Zürcher Kantonalbank",
+    "bic": "ZKBKCHZZ80A",
+    "iban": "CH36 0070 0313 2303 8881 9",
+    "accountHolderName": "Lina VIAL",
     "bankingAddress": {
-      "streetAddress": "",
-      "locality": "",
-      "postalCode": "",
-      "country": ""
+      "streetAddress": "Bahnhofstrasse 9",
+      "locality": "Zürich",
+      "postalCode": "8001",
+      "country": "Schweiz"
     }
   },
   "vsethSwissEduPersonUniqueId": "0070024@ethz.ch",

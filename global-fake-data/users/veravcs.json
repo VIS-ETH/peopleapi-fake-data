@@ -30,21 +30,21 @@
     "fvOrgKey": "vcs"
   },
   "vsethPostalAddress": {
-    "streetAddress": "",
-    "locality": "",
-    "postalCode": "",
-    "country": ""
+    "streetAddress": "Hönggerstrasse 117",
+    "locality": "Zürich",
+    "postalCode": "8037",
+    "country": "Schweiz"
   },
   "vsethBankAccount": {
-    "bankName": "",
-    "bic": "",
-    "iban": "",
-    "accountHolderName": "",
+    "bankName": "Raiffeisen Schweiz",
+    "bic": "RAIFCH22XXX",
+    "iban": "CH22 8080 8481 0878 9959 5",
+    "accountHolderName": "Vera VCS",
     "bankingAddress": {
-      "streetAddress": "",
-      "locality": "",
-      "postalCode": "",
-      "country": ""
+      "streetAddress": "Raiffeisenplatz 4",
+      "locality": "St. Gallen",
+      "postalCode": "9001",
+      "country": "Schweiz"
     }
   },
   "vsethSwissEduPersonUniqueId": "0070022@ethz.ch",

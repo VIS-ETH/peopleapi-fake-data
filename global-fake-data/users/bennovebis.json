@@ -30,21 +30,21 @@
     "fvOrgKey": "vebis"
   },
   "vsethPostalAddress": {
-    "streetAddress": "",
-    "locality": "",
-    "postalCode": "",
-    "country": ""
+    "streetAddress": "Forchstrasse 42",
+    "locality": "Zürich",
+    "postalCode": "8008",
+    "country": "Schweiz"
   },
   "vsethBankAccount": {
-    "bankName": "",
-    "bic": "",
-    "iban": "",
-    "accountHolderName": "",
+    "bankName": "Berner Kantonalbank",
+    "bic": "KBBECH22XXX",
+    "iban": "CH50 0079 0005 2490 2096 4",
+    "accountHolderName": "Benno VeBiS",
     "bankingAddress": {
-      "streetAddress": "",
-      "locality": "",
-      "postalCode": "",
-      "country": ""
+      "streetAddress": "Bundesplatz 8",
+      "locality": "Bern",
+      "postalCode": "3011",
+      "country": "Schweiz"
     }
   },
   "vsethSwissEduPersonUniqueId": "0070023@ethz.ch",

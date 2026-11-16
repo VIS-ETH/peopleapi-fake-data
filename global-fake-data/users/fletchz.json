@@ -30,21 +30,21 @@
     "fvOrgKey": "vis"
   },
   "vsethPostalAddress": {
-    "streetAddress": "",
-    "locality": "",
-    "postalCode": "",
-    "country": ""
+    "streetAddress": "Hönggerstrasse 56",
+    "locality": "Zürich",
+    "postalCode": "8037",
+    "country": "Schweiz"
   },
   "vsethBankAccount": {
-    "bankName": "",
-    "bic": "",
-    "iban": "",
-    "accountHolderName": "",
+    "bankName": "Zürcher Kantonalbank",
+    "bic": "ZKBKCHZZ80A",
+    "iban": "CH82 0070 0729 3793 3432 2",
+    "accountHolderName": "Zoé Fletcher",
     "bankingAddress": {
-      "streetAddress": "",
-      "locality": "",
-      "postalCode": "",
-      "country": ""
+      "streetAddress": "Bahnhofstrasse 9",
+      "locality": "Zürich",
+      "postalCode": "8001",
+      "country": "Schweiz"
     }
   },
   "vsethSwissEduPersonUniqueId": "0069420@ethz.ch",

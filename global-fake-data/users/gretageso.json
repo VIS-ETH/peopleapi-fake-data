@@ -30,21 +30,21 @@
     "fvOrgKey": "geso"
   },
   "vsethPostalAddress": {
-    "streetAddress": "",
-    "locality": "",
-    "postalCode": "",
-    "country": ""
+    "streetAddress": "Winterthurerstrasse 25",
+    "locality": "Zürich",
+    "postalCode": "8006",
+    "country": "Schweiz"
   },
   "vsethBankAccount": {
-    "bankName": "",
-    "bic": "",
-    "iban": "",
-    "accountHolderName": "",
+    "bankName": "PostFinance AG",
+    "bic": "POFICHBEXXX",
+    "iban": "CH10 0900 0765 9986 7868 1",
+    "accountHolderName": "Greta GESO",
     "bankingAddress": {
-      "streetAddress": "",
-      "locality": "",
-      "postalCode": "",
-      "country": ""
+      "streetAddress": "Mingerstrasse 20",
+      "locality": "Bern",
+      "postalCode": "3030",
+      "country": "Schweiz"
     }
   },
   "vsethSwissEduPersonUniqueId": "0070017@ethz.ch",

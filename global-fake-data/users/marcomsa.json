@@ -30,21 +30,21 @@
     "fvOrgKey": "msa"
   },
   "vsethPostalAddress": {
-    "streetAddress": "",
-    "locality": "",
-    "postalCode": "",
-    "country": ""
+    "streetAddress": "Länggassstrasse 39",
+    "locality": "Bern",
+    "postalCode": "3012",
+    "country": "Schweiz"
   },
   "vsethBankAccount": {
-    "bankName": "",
-    "bic": "",
-    "iban": "",
-    "accountHolderName": "",
+    "bankName": "Zürcher Kantonalbank",
+    "bic": "ZKBKCHZZ80A",
+    "iban": "CH09 0070 0469 8871 4927 3",
+    "accountHolderName": "Marco MSA",
     "bankingAddress": {
-      "streetAddress": "",
-      "locality": "",
-      "postalCode": "",
-      "country": ""
+      "streetAddress": "Bahnhofstrasse 9",
+      "locality": "Zürich",
+      "postalCode": "8001",
+      "country": "Schweiz"
     }
   },
   "vsethSwissEduPersonUniqueId": "0070019@ethz.ch",

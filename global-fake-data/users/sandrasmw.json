@@ -30,21 +30,21 @@
     "fvOrgKey": "smw"
   },
   "vsethPostalAddress": {
-    "streetAddress": "",
-    "locality": "",
-    "postalCode": "",
-    "country": ""
+    "streetAddress": "Länggassstrasse 110",
+    "locality": "Bern",
+    "postalCode": "3012",
+    "country": "Schweiz"
   },
   "vsethBankAccount": {
-    "bankName": "",
-    "bic": "",
-    "iban": "",
-    "accountHolderName": "",
+    "bankName": "Berner Kantonalbank",
+    "bic": "KBBECH22XXX",
+    "iban": "CH79 0079 0678 3024 4213 5",
+    "accountHolderName": "Sandra SMW",
     "bankingAddress": {
-      "streetAddress": "",
-      "locality": "",
-      "postalCode": "",
-      "country": ""
+      "streetAddress": "Bundesplatz 8",
+      "locality": "Bern",
+      "postalCode": "3011",
+      "country": "Schweiz"
     }
   },
   "vsethSwissEduPersonUniqueId": "0070020@ethz.ch",
