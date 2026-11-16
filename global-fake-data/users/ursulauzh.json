@@ -1,0 +1,55 @@
+{
+  "username": "ursulauzh",
+  "password": "qDivNaHiYosD",
+  "firstName": "Ursula",
+  "lastName": "UZH",
+  "mail": "ursula.uzh@uzh.ch",
+  "telephoneNumber": "",
+  "vsethPersonId": "27aaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "vsethStudentNumber": "23270000",
+  "vsethAlternativeEmail": "",
+  "vsethStudySemester": 3,
+  "vsethBirthdate": "2003-07-12",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethEthStudyInfo": {
+    "ethFachid": "",
+    "department": "",
+    "departmentDisplayLabelDe": "",
+    "departmentDisplayLabelEn": "",
+    "studyProgramDisplayLabelDe": "",
+    "studyProgramDisplayLabelEn": "",
+    "studyFachrichtungDisplayLabelDe": "",
+    "studyFachrichtungDisplayLabelEn": "",
+    "exitDate": ""
+  },
+  "vsethMembershipInfo": {
+    "membership": "VSETH_MEMBERSHIP_NOT_MEMBER",
+    "membershipType": "VSETH_MEMBERSHIP_TYPE_UNSPECIFIED",
+    "fvOrgId": "",
+    "fvOrgKey": ""
+  },
+  "vsethPostalAddress": {
+    "streetAddress": "",
+    "locality": "",
+    "postalCode": "",
+    "country": ""
+  },
+  "vsethBankAccount": {
+    "bankName": "",
+    "bic": "",
+    "iban": "",
+    "accountHolderName": "",
+    "bankingAddress": {
+      "streetAddress": "",
+      "locality": "",
+      "postalCode": "",
+      "country": ""
+    }
+  },
+  "vsethSwissEduPersonUniqueId": "0070027@uzh.ch",
+  "vsethSwissEduPersonAffiliation": "member;student",
+  "vsethAdvantUid": "",
+  "vsethKabaGroupHeader": "",
+  "groups": []
+}
