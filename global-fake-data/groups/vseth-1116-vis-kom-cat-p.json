@@ -1,0 +1,31 @@
+{
+  "name": "vseth-1116-vis-kom-cat-p",
+  "description": "Group for the VIS CAT Präsi",
+
+  "parent": "vseth-1116-vis-kom-cat",
+
+  "vsethOrgId": "1116",
+  "vsethObjectType": "GROUP_OBJECT_TYPE_FIOE",
+  "vsethCreateTime": "2024-01-01T08:15:32.639+0100",
+  "vsethUpdateTime": "2024-12-31T21:20:58.721+0100",
+  "vsethDisplayName": "VIS CAT",
+  "vsethTitleDe": "VIS CAT",
+  "vsethTitleEn": "VIS CAT",
+  "vsethEmail": "",
+  "vsethEthOffice": "CAB E 31",
+  "vsethWebsite": "https://www.vis.ethz.ch",
+  "vsethTelephone": "+41446326653",
+  "vsethEthOrgId": "04821",
+  "vsethPostalAddress": {
+    "streetAddress": "Universitätstrasse 6",
+    "locality": "Zürich",
+    "postalCode": "8092",
+    "country": "CH"
+  },
+
+  "clientRoles": {
+    "eventmanager": [
+      "admin"
+    ]
+  }
+}
