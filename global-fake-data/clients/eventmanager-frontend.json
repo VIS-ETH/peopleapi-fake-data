@@ -1,0 +1,25 @@
+{
+  "name": "Eventmanager Frontend",
+  "enabled": true,
+  "publicClient": true,
+  "serviceAccountsEnabled": false,
+  "clientAuthenticatorType": "client-secret",
+  "clientId": "eventmanager-frontend",
+  "secret": "",
+  "protocol": "openid-connect",
+  "protocolMappers": [
+    {
+      "name": "Audience",
+      "protocol": "openid-connect",
+      "protocolMapper": "oidc-audience-mapper",
+      "config": {
+        "includedClientAudience": "eventmanager",
+        "idTokenClaim": "false",
+        "accessTokenClaim": "true",
+        "userinfoTokenClaim": "false"
+      }
+    }
+  ],
+  "webOrigins": ["*", "http://localhost:8080/*", "http://localhost:5173/*"],
+  "redirectUris": ["*"]
+}
