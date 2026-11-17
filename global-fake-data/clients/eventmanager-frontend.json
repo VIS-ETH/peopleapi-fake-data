@@ -18,6 +18,20 @@
         "accessTokenClaim": "true",
         "userinfoTokenClaim": "false"
       }
+    },
+    {
+      "name": "People API ID",
+      "protocol": "openid-connect",
+      "protocolMapper": "oidc-usermodel-attribute-mapper",
+      "config": {
+        "user.attribute": "LDAP_ID",
+        "claim.name": "sub",
+        "json.type.label": "String",
+        "access.token.claim": "true",
+        "id.token.claim": "true",
+        "userinfo.token.claim": "true",
+        "introspection.token.claim": "true"
+      }
     }
   ],
   "webOrigins": ["*", "http://localhost:8080/*", "http://localhost:5173/*"],
