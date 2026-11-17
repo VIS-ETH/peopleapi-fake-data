@@ -19,11 +19,5 @@
     "locality": "Zürich",
     "postalCode": "8092",
     "country": "CH"
-  },
-
-  "clientRoles": {
-    "eventmanager": [
-      "vis-active"
-    ]
   }
 }
